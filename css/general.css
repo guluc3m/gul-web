@@ -132,7 +132,8 @@ h1 {
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
 	padding: 10px;
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(124, 156, 172)), to(rgb(90, 114, 125)));	
+	background-image: -webkit-linear-gradient(top, rgb(124, 156, 172), rgb(90, 114, 125));
+	background-image:    -moz-linear-gradient(top, rgb(124, 156, 172), rgb(90, 114, 125));
 	color: white;
 	text-shadow: rgb(0, 0, 0) 0px -1px 0px;
 }
