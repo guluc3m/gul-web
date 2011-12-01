@@ -85,15 +85,15 @@
           <%= twitter_for "guluc3m" %>
         </div>
 
-        <div class="story story_hm">
-          <%= twitter_for "holamundoradio" %>
-        </div>                        
-
         <% story = get_story("cursos/1") %>
         <div class="story story_<%= section_name_for story %>">
           <div class="title"><%= story[:title] %></div>
           <div class="body"><%= story[:short] %></div>
         </div>
+
+        <div class="story story_hm">
+          <%= twitter_for "holamundoradio" %>
+        </div>                        
       </div>
       
     </div>
