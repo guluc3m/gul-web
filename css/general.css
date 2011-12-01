@@ -1,0 +1,209 @@
+body {
+	background: #f8f8f8;
+	background-image: url(bg.png);
+	color: #000000;
+	font-family: helvetica, freesans, clean, sans-serif;
+	font-size: 12px;
+	padding: 0px;
+	margin:0;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+h1 {
+	font-weight: normal;
+	padding:0;
+	margin:0;
+	font-size: 16px;
+}
+
+#nav {
+	background: black;
+	color:white;
+	height: 28px;
+	text-align: left;
+	font-size: 10px;
+}
+
+#nav img {
+	float: left;
+	padding-left:0px;
+}
+
+.navitem {
+	text-align: center;
+	float: left;
+	border: 0;
+	height: 22px;
+	vertical-align: middle;	
+	padding-top:6px;
+	width:100px;
+	margin-left:0;
+	margin-right:0;
+	color: #ccc;
+}
+
+.navitem:hover, .navlogo:hover {
+	background: #333;
+	color: #fff;
+}
+
+#menubar {
+	margin-top:0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #888;
+	background: #f0f0f0;
+	background-image: url(bg.png);
+	background-position:1px 0px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	height: 90px;	
+}
+
+#menu {
+	width: 906px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0;
+}
+
+.logobox {
+	float: left;
+	width: 300px;
+	background-image: url(logo-gul-bright.png);
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	height: 100px;
+}
+
+.menubox {
+	float: left;
+	width: 180px;
+	margin-left:20px;
+}
+
+.menubox h1 {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-size: 13px;
+	color: #666;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+}
+
+.menubox ul {
+	padding:0;
+	margin:0;
+}
+
+#menu ul li {
+	list-style: none;
+	color: #078;
+	margin-bottom:2px;
+}
+
+#main {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+#mainstory {
+	float: left;
+	width: 900px;
+	height: 280px;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	color: #333;
+	box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px;
+}
+
+#mainstory .title {
+	padding-left: 20px;
+	background: #f80;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	padding: 10px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(124, 156, 172)), to(rgb(90, 114, 125)));	
+	color: white;
+	text-shadow: rgb(0, 0, 0) 0px -1px 0px;
+}
+
+#mainstory .body {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.story {
+	background: white;
+	min-height:160px;
+	float: left;
+	width: 278px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding:10px;
+	box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px;
+}
+
+.story:first-child {
+	border-left: 1px solid #ccc;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.story:last-child {
+	border-right: 1px solid #ccc;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.story .body {
+	padding-top: 10px;
+}
+
+.story .title {
+	color:rgb(90, 114, 125);
+	font-weight: bold;
+}
+
+.twtr-ft {
+	display: none;
+}
+
+#fortunes {
+	clear: both;
+	margin-top: 10px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0;
+	text-align: right;
+	font-family: 'Montez';
+	font-size: 16px;	
+	color: #888;
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+}
+
+#footer {
+	margin-top: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #888;
+	text-align: center;
+	clear: both;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+	font-size:10px;
+}
+
+#main br {
+	clear:both;
+}

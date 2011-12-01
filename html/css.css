@@ -1,0 +1,54 @@
+
+.menuitem_cursos {
+  padding-left: 5px;
+}
+
+.menuitem_cursos:hover {
+  padding-left: 2px;
+  border-left: 3px solid #86ac7c;
+}
+
+.story_cursos {
+  border-bottom: 3px solid #86ac7c;
+}
+
+.transparent_cursos {
+  
+  background-color: rgba(134, 172, 124, 0.1);
+}
+
+.menuitem_gul {
+  padding-left: 5px;
+}
+
+.menuitem_gul:hover {
+  padding-left: 2px;
+  border-left: 3px solid #e7d8a0;
+}
+
+.story_gul {
+  border-bottom: 3px solid #e7d8a0;
+}
+
+.transparent_gul {
+  
+  background-color: rgba(231, 216, 160, 0.1);
+}
+
+.menuitem_hm {
+  padding-left: 5px;
+}
+
+.menuitem_hm:hover {
+  padding-left: 2px;
+  border-left: 3px solid #ab8c7c;
+}
+
+.story_hm {
+  border-bottom: 3px solid #ab8c7c;
+}
+
+.transparent_hm {
+  
+  background-color: rgba(171, 140, 124, 0.1);
+}

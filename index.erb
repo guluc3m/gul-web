@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <title>Grupo de Usuarios de Linux de la Universidad Carlos III de Madrid</title>
+    <link href="general.css" rel="stylesheet" type="text/css" />
+    <link href="announce.css" rel="stylesheet" type="text/css" />
+    <link href="css.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Zeyada' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div id="nav">
+      <!--
+      <a href="index.html">
+        <img alt="" src="home.png" />
+      </a>
+      -->
+      <% @sections.each do |category|
+        id = category[:id]
+        name = category[:name]
+        color = category[:color]
+      %>
+        <div class="navitem" style="border-bottom: 3px solid <%= color %>">
+          <%= name %>
+        </div>          
+      <% end %>
+    </div>
+
+    <div id="menubar">
+      <div id="menu">
+        <div class="logobox">
+          &nbsp;
+        </div>
+        <div class="menubox">
+          <h1>La asociación</h1>
+          <ul>
+            <li class="menuitem_gul">¿Quiénes somos?</li>
+            <li class="menuitem_gul">Documentación</li>
+            <li class="menuitem_gul">Servicios</li>
+            <li class="menuitem_gul">Wiki</li>
+          </ul>
+        </div>
+        <div class="menubox">
+          <h1>Actividades</h1>
+          <ul>
+            <li class="menuitem_gul">Listas de correo</li>
+            <li class="menuitem_cursos">Jornadas técnicas</li>
+            <li class="menuitem_hm">HolaMundo Radio</li>
+          </ul>
+        </div>
+        <div class="menubox">
+          <h1>Miembros</h1>
+          <ul>
+            <li class="menuitem_gul">Reuniones</li>
+            <li class="menuitem_gul">Fichajes</li>
+            <li class="menuitem_gul">Planeta GUL</li>
+          </ul>
+        </div>
+        <br />
+      </div>
+    </div>
+      
+    <div id="main">
+      
+      <% if @announce %>
+        <div id="announce">
+          <%= @announce %>
+        </div>
+      <% end %>
+      
+      <% story = @timeline.last %>
+
+      <% section = section_for(story)[:id] %>
+      <div id="mainstory" class="story_<%= section %> transparent_<%= section %>">
+        <div class="title">
+          <h1><%= story[:title] %></h1>
+        </div>
+        <div class="body">
+          <%= story[:body] %>
+        </div>
+      </div>
+      
+      <div id="morestories">
+        <div class="story story_gul">
+          <%= twitter_for "guluc3m" %>
+        </div>
+
+        <div class="story story_hm">
+          <%= twitter_for "holamundoradio" %>
+        </div>                        
+
+        <% story = get_story("cursos/1") %>
+        <div class="story story_hm">
+          <div class="title"><%= story[:title] %></div>
+          <div class="body"><%= story[:short] %></div>
+        </div>
+      </div>
+      
+    </div>
+        
+    <div id="fortunes">
+      Aquí van las fortunes
+    </div>
+    
+    <div id="footer">
+      Última actualización: <%= Time.now %>
+    </div>
+  </body>
+</html>
