@@ -19,6 +19,7 @@ h1 {
 }
 
 #nav {
+	display: none;
 	background: black;
 	color:white;
 	height: 28px;
@@ -70,12 +71,34 @@ h1 {
 }
 
 .logobox {
+	text-align: right;
+	font-size: 50px;
 	float: left;
-	width: 300px;
-	background-image: url(logo-gul-bright.png);
-	background-repeat: no-repeat;
-	background-position: 0px 10px;
-	height: 100px;
+	width: 280px;
+	height: 415px;
+	font-family: 'Lato', sans-serif;
+}
+
+#hereweare {
+/*	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid #ccc; */
+	border-radius: 5px;
+	color: #333;
+	margin:0;
+	padding: 10px;
+	padding-top: 0px;
+	font-size: 70px;
+	font-weight: bold;
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px;
+}
+
+#slogan {
+	padding: 10px;
+	padding-top: 0;
+	color: #555;
+	margin:0;
+	font-size: 50px;
+	text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
 }
 
 .menubox {
@@ -114,8 +137,8 @@ h1 {
 
 #mainstory {
 	background: rgba(255, 255, 255, 0.5);
-	float: left;
-	width: 900px;
+	float: right;
+	width: 600px;
 	height: 280px;
 	border-top: 1px solid #ddd;
 	border-left: 1px solid #ddd;
