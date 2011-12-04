@@ -153,6 +153,10 @@ module Lib
     timeline = timeline.split("\n")
     timeline.collect! { |line| get_story(line) }    
   end
+  
+  def partial(name) 
+    read_conditionally "#{name}.erb" || ""
+  end
 end
 
 class Array 
