@@ -3,7 +3,7 @@ body {
 	background-image: url(bg.png);
 	color: #000000;
 	font-family: helvetica, freesans, clean, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	padding: 0px;
 	margin:0;
 	font-style: normal;
@@ -77,19 +77,29 @@ h1 {
 	width: 280px;
 	height: 415px;
 	font-family: 'Lato', sans-serif;
+/*	background: rgba(0, 0, 0, 0.01);
+	border: 1px solid #ccc; 
+	border-radius: 5px; */
+}
+
+.logobox a {
+	color: #333;
+	text-decoration: none;
+}
+
+.logobox a:hover {
+	color: black;
+	background: rgba(128, 128, 128, 0.2);
 }
 
 #hereweare {
-/*	background: rgba(255, 255, 255, 0.5);
-	border: 1px solid #ccc; */
-	border-radius: 5px;
 	color: #333;
 	margin:0;
 	padding: 10px;
 	padding-top: 0px;
 	font-size: 70px;
 	font-weight: bold;
-	text-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px;
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 }
 
 #slogan {
@@ -98,7 +108,7 @@ h1 {
 	color: #555;
 	margin:0;
 	font-size: 50px;
-	text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 }
 
 .menubox {
@@ -110,10 +120,10 @@ h1 {
 .menubox h1 {
 	padding-bottom: 5px;
 	margin-bottom: 5px;
-	font-size: 13px;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
 	color: #666;
 	border-bottom: 1px solid #ccc;
-	font-weight: bold;
 	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 }
 
@@ -128,6 +138,17 @@ h1 {
 	margin-bottom:2px;
 }
 
+#menu ul li a {
+	color: #078;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: black;
+	background: rgba(0, 119, 136, 0.2);
+	text-decoration: none;
+}
+
 #main {
 	width: 900px;
 	margin-left: auto;
@@ -139,7 +160,7 @@ h1 {
 	background: rgba(255, 255, 255, 0.5);
 	float: right;
 	width: 600px;
-	height: 280px;
+	min-height: 280px;
 	border-top: 1px solid #ddd;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
@@ -163,7 +184,9 @@ h1 {
 
 #mainstory .body {
 	padding-left: 20px;
+	padding-right: 20px;
 	padding-top: 20px;
+    padding-bottom: 20px
 }
 
 .story {

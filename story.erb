@@ -1,9 +1,10 @@
 <html>
   <head>
     <title>Grupo de Usuarios de Linux de la Universidad Carlos III de Madrid</title>
-    <link href="general.css" rel="stylesheet" type="text/css" />
-    <link href="announce.css" rel="stylesheet" type="text/css" />
-    <link href="css.css" rel="stylesheet" type="text/css" />
+    <link href="../general.css" rel="stylesheet" type="text/css" />
+    <link href="../announce.css" rel="stylesheet" type="text/css" />
+    <link href="../css.css" rel="stylesheet" type="text/css" />
+    <link href="../story.css" rel="stylesheet" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Zeyada' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
@@ -74,36 +75,31 @@
         </div>
       <% end %>
       
-      <% story = @timeline.last %>
-
-      <% section = section_for(story)[:id] %>
+      <% section = section_for(@story)[:id] %>
+      
       <div id="mainstory" class="story_<%= section %>">
         <div class="title">
-          <h1><%= story[:title] %></h1>
+          <h1><%= @story[:title] %></h1>
         </div>
         <div class="body">
-          <%= story[:body] %>
+          <%= @story[:body] %>
         </div>
-      </div>
+      </div>  
       
-      <div id="morestories">
-        <div class="story story_gul">
-          <%= twitter_for "guluc3m" %>
-        </div>
-
-        <div class="story story_hm">
-          <%= twitter_for "holamundoradio" %>
-        </div>                        
-
-        <% story = get_story("cursos/1") %>
-
-        <div class="story story_<%= section_name_for story %>">
-          <div class="title"><%= story[:title] %></div>
-          <div class="body"><%= story[:short] %></div>
-        </div>
-
-      </div>
+      <% remaining_timeline = @timeline[1..-1] %>
       
+      <% if remaining_timeline.size > 0 %>
+        <div class="more_in_section">
+          <h1>
+            Relacionadas:
+          </h1>
+          <ul>
+          <% remaining_timeline.each do |story| %>
+            <li class="menuitem_<%= section_name_for story %>"><%= story[:title] %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
     </div>
         
     <div id="fortunes">
