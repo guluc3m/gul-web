@@ -27,6 +27,38 @@
 	padding:10px;
 }
 
+.story h1 {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	color: #666;
+	border-bottom: 1px solid #ccc;
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+} 
+
+.story ul {
+	padding:0;
+	margin:0;
+}
+
+.story ul li {
+	list-style: none;
+	color: #078;
+	margin-bottom:2px;
+}
+
+.story ul li a {
+	color: #078;
+	text-decoration: none;
+}
+
+.story ul li a:hover {
+	color: black;
+	background: rgba(0, 119, 136, 0.2);
+	text-decoration: none;
+}
+
+
 .story:first-child {
 }
 

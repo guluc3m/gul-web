@@ -22,7 +22,6 @@
 
     <%= partial("menu") %>  
  
-     
     <div id="main">
       
       <% if @announce %>
@@ -36,7 +35,7 @@
       <% section = section_for(story)[:id] %>
       <div id="mainstory" class="story_<%= section %>">
         <div class="title">
-          <h1><%= story[:title] %></h1>
+          <%= story[:title] %>
         </div>
         <div class="body">
           <%= story[:body] %>
@@ -52,11 +51,17 @@
           <%= twitter_for "holamundoradio" %>
         </div>                        
 
-        <% story = get_story("cursos/1") %>
-
         <div class="story">
-          <div class="title"><%= story[:title] %></div>
-          <div class="body"><%= story[:short] %></div>
+          <h1>Noticias anteriores</h1>
+          <ul>
+            <% @timeline.reverse[1..-1].each do |story| %>
+            <li class="menuitem_<%= story[:section] %>" >
+              <a href="<%= story[:path] %>">
+                <%= story[:title] %>
+              </a>
+            </li>
+            <% end %>
+          </ul>
         </div>
 
       </div>

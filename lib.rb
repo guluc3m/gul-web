@@ -144,7 +144,8 @@ module Lib
       :body => body, 
       :short => short, 
       :section => category, 
-      :id => id
+      :id => id, 
+      :path => "/#{category}/#{id}"
     }
   end
   
