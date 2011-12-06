@@ -14,7 +14,7 @@ css.css: css.rb css.erb
 	cp css/$@ ${OUT}
 
 stories:
-	sh makestories.sh
+	bash makestories.sh
 
 clean: 
 	rm ${OUT}/*html
