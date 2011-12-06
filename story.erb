@@ -41,7 +41,7 @@
         </div>
       </div>  
       
-      <% remaining_timeline = @timeline[1..-1] %>
+      <% remaining_timeline = @timeline.select { |story| story[:id] != @story[:id] } %>
       
       <% if remaining_timeline.size > 0 %>
         <div class="more_in_section">
