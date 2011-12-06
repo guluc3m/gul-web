@@ -9,6 +9,8 @@
 	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 	color: #666;
 	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .more_in_section ul {
