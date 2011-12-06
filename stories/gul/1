@@ -1,3 +1,20 @@
-title = "Nueva web"
+title = "Fiesta de instalación de software libre"
 
-A ver si os gusta esta nueva web
+<p>
+<a href="www.jrotero.org">La cooperativa de enseñanza José Ramón Otero</a>
+está organizando unas jornadas sobre software libre para el día 28 de enero de 2012. 
+En ella los alumnos de FP mostrarán sus proyectos realizados con software libre: música, 
+vídeo, retoque fotográfico, etc. También habrá sala de juegos para los más pequeños
+y charlas (técnicas y no-tan-técnicas) para los padres y los alumnos. 
+</p>
+
+<p>
+Varias asociaciones y empresas nos hemos apuntado a la fiesta. Aunque estamos en 
+plena organización, hemos confirmado dos charlas:
+
+<ul>
+  <li>Jesús hablará de Mercurial, un software que permite gestionar diferentes
+      versiones y ramas de trabajo de documentos de texto, código fuente, etc.</li>
+  <li>David dará una charla sobre los mitos, realidades y miedos de Internet</li>
+</ul>
+</p>

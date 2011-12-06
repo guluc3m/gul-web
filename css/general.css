@@ -65,7 +65,7 @@ h1 {
 #menubar {
 	margin-top:0;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	color: #888;
 	background: #f0f0f0;
 	background-image: url(bg.png);
@@ -108,14 +108,16 @@ h1 {
 	margin:0;
 	padding: 10px;
 	padding-top: 0px;
-	font-size: 70px;
+	font-size: 55px;
+	line-height: 50px;
 	font-weight: bold;
 	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+	font-family: 'Michroma', sans-serif;
 }
 
 #slogan {
 	padding: 10px;
-	padding-top: 0;
+	padding-top: 14px;
 	color: #555;
 	margin:0;
 	font-size: 45px;

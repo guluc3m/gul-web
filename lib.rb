@@ -158,7 +158,7 @@ module Lib
   def partial(name) 
     contents = read_conditionally "_#{name}.erb" || ""
     template = ERB.new(contents)
-    puts template.result(binding)
+    template.result(binding)
   end
 end
 
