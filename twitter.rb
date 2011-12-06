@@ -9,14 +9,14 @@ module Twitter
         rpp: 4,
         interval: 30000,
         width: 250,
-        height: 100,
+        height: 0,
         theme: {
           shell: {
-            background: '#ffffff',
+            background: 'transparent',
             color: '#666666'
           },
           tweets: {
-            background: '#ffffff',
+            background: 'transparent',
             color: '#666666',
             links: '#007688'
           }

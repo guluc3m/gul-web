@@ -158,16 +158,16 @@ h1 {
 
 #mainstory {
 	background: rgba(255, 255, 255, 0.5);
-	float: right;
-	width: 600px;
-	min-height: 280px;
 	border-top: 1px solid #ddd;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
 	border-radius: 5px;
+	box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px;
+	float: right;
+	width: 600px;
+	min-height: 280px;
 	margin-bottom: 10px;
 	color: #333;
-	box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px;
 }
 
 #mainstory .title {
@@ -187,42 +187,6 @@ h1 {
 	padding-right: 20px;
 	padding-top: 20px;
     padding-bottom: 20px
-}
-
-.story {
-	background: white;
-	min-height:160px;
-	float: left;
-	width: 278px;
-	border-top: 1px solid #ccc;
-	border-right: 1px solid #ccc;
-	padding:10px;
-	box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px;
-}
-
-.story:first-child {
-	border-left: 1px solid #ccc;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-}
-
-.story:last-child {
-	border-right: 1px solid #ccc;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-}
-
-.story .body {
-	padding-top: 10px;
-}
-
-.story .title {
-	color:rgb(90, 114, 125);
-	font-weight: bold;
-}
-
-.twtr-ft {
-	display: none;
 }
 
 #fortunes {

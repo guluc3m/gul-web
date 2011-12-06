@@ -14,3 +14,31 @@
 	color: #078;
 	margin-bottom:2px;
 }
+
+#morestories {
+	clear: both;
+}
+
+.story {
+	background: transparent;
+	min-height:160px;
+	float: left;
+	width: 278px;
+	padding:10px;
+}
+
+.story:first-child {
+}
+
+.story:last-child {
+}
+
+.story .body {
+	padding-top: 10px;
+}
+
+.story .title {
+	color:rgb(90, 114, 125);
+	font-weight: bold;
+}
+

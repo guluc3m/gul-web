@@ -2,7 +2,7 @@ OUT=html
 
 all: html css
 html: index.html stories
-css: announce.css general.css css.css story.css
+css: announce.css general.css css.css story.css twitter.css
 
 %.html: %.rb %.erb
 	ruby $< > ${OUT}/$@	
