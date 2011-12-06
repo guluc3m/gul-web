@@ -50,7 +50,11 @@
           </h1>
           <ul>
           <% remaining_timeline.each do |story| %>
-            <li class="menuitem_<%= section_name_for story %>"><%= story[:title] %></li>
+            <li class="menuitem_<%= section_name_for story %>">
+            <a href="<%= story[:path] %>">
+              <%= story[:title] %>
+            </a>
+            </li>
           <% end %>
           </ul>
         </div>

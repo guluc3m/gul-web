@@ -11,6 +11,17 @@ body {
 	font-weight: normal;
 }
 
+a {
+	color: #078;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	background: rgba(0, 119, 136, 0.2);
+	text-decoration: none;	
+}
+
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
@@ -136,17 +147,6 @@ h1 {
 	list-style: none;
 	color: #078;
 	margin-bottom:2px;
-}
-
-#menu ul li a {
-	color: #078;
-	text-decoration: none;
-}
-
-#menu ul li a:hover {
-	color: black;
-	background: rgba(0, 119, 136, 0.2);
-	text-decoration: none;
 }
 
 #main {
