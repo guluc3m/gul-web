@@ -9,6 +9,11 @@
 	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 }
 
+.more_in_section ul {
+	margin:0;
+	padding:0;
+}
+
 .more_in_section ul li {
 	list-style: none;
 	color: #078;
