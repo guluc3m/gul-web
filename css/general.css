@@ -180,8 +180,7 @@ h1 {
 /*	background-image: -webkit-linear-gradient(top, rgb(124, 156, 172), rgb(90, 114, 125));
 	background-image:    -moz-linear-gradient(top, rgb(124, 156, 172), rgb(90, 114, 125)); */
 	color: #444;
-/*	text-shadow: rgb(0, 0, 0) 0px 1px 0px; */
-	font-weight: bold;
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px; */
 }
 
 #mainstory .body {
@@ -230,12 +229,28 @@ h1 {
 	margin-bottom: 10px;
 }
 
+.intro p {
+	color: #333;
+}
+
 .intro:first-child {
 	margin-left: 10px;
 }
 
 .intro:last-child {
 	margin-right: 10px;
+}
+
+.intro h1 {
+	color: #666;
+	border-bottom: 1px solid #ccc;	
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px;	
+}
+
+.intro p {
+	padding-top: 5px;
+	padding-left: 10px;
+	margin: 0;
 }
 
 #botonaco {
@@ -275,17 +290,3 @@ h1 {
    background: #d69d53;
 }
 
-
-
-
-.intro h1 {
-	color: #444;
-	font-weight: bold;
-	border-bottom: 1px solid #ccc;	
-}
-
-.intro p {
-	padding-top: 5px;
-	padding-left: 10px;
-	margin: 0;
-}
