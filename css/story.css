@@ -66,6 +66,16 @@
 	padding-top: 10px;
 }
 
+.body h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+	color: #666;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
 .story .title {
 	color:rgb(90, 114, 125);
 	font-weight: bold;

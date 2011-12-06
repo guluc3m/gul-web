@@ -1,0 +1,26 @@
+title = "Servicios"
+
+<h3>Lista de Correo</h3>
+<p>En nuestra lista de correo se resuelven dudas sobre Linux y cosas por el estilo, se habla de temas relacionados con el software libre y con el GUL, adem&aacute;s de cualquier tema que se considere interesante.</p>
+<p><a href="http://gul.uc3m.es/mailman/listinfo/gul/">Pulsa aquí para acceder</a></p>
+
+<h3>Foro</h3>
+
+<p>Como hay gente a la que no le gusta las listas de correo hemos puesto una interfaz foro que está sincronizada con la lista de correo. Puedes usar la interfaz que quieras, cualquier mensaje llega a ambos sitios.</p>
+<p><a href="http://foro.gul.es">Pulsa aqu&iacute; para acceder</a></p>
+<p>Si ya eras un usuario de la lista de correo, te interesará leer <a href="foro.php">esto</a> [POR MIGRAR] </p>
+
+<h3>FTP</h3>
+
+<p>Nuestro servidor de ficheros FTP contiene un mirror completo de Debian, toda la documentaci&oacute;n que generamos y alguna que otra cosa m&aacute;s.</p>
+<p><a href="http://ftp.gul.uc3m.es">Pulsa aquí para acceder</a></p>
+
+<h3>Planeta GUL</h3>
+
+<p>Es un planeta de blogs, donde se recogen mensajes de las bitácoras de aquellos miembros del GUL que han decidido participar.</p>
+<p><a href="http://planeta.gul.es">Pulsa aqu&iacute; para acceder</a></p>
+
+<h3> Alojamiento de proyectos </h3>
+<p>Tenemos una máquina para alojar todo tipo de proyectos. Cada uno de ellos tiene un trac y un repositorio SVN.</p>
+<p> <a href='http://tracs.gul.es'>Pulsa aquí para acceder</a></p>
+
