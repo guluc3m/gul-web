@@ -64,7 +64,14 @@
       <div id="morestories">
 
         <div class="story">
-        <!--
+          <%= twitter_for "guluc3m" %>
+        </div>
+
+        <div class="story">
+          <%= twitter_for "holamundoradio" %>
+        </div>                        
+        
+	<div class="story">
           <h1>Noticias anteriores</h1>
           <ul>
             <% @timeline.reverse[1..-1].each do |story| %>
@@ -75,16 +82,8 @@
             </li>
             <% end %>
           </ul>
-          -->
         </div>
 
-        <div class="story">
-          <%= twitter_for "guluc3m" %>
-        </div>
-
-        <div class="story">
-          <%= twitter_for "holamundoradio" %>
-        </div>                        
 
       </div>
       
