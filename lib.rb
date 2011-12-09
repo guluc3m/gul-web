@@ -1,5 +1,22 @@
 module Lib
+
+  class Story 
+    attr_accessor :meta, :title, :body, :short, :section, :identifier, :path
+  end
+
+  class Section
+    attr_accessor :identifier, :name, :color
+    def ==(other)
+      self.identifier == other.identifier
+    end
+  end
+
+  SECTIONS = {}
+  STORIES = {}
+
   STORIES_DIR = "stories/"
+  READING_METADATA = 0
+  READING_BODY = 1
 
   #
   # ceturns contents of a file, or nil if it doesn't exist
@@ -32,18 +49,20 @@ module Lib
     sections = []
     Dir.entries(STORIES_DIR).sort.each do |c|
       if c != "." && c != ".." && c != "timeline"
-        meta = meta(c)
-        sections << meta
+        sections << get_section(c)
       end
     end
     sections
   end
 
   # 
-  # Returns a category's metadata, which is extraced from stories/category/meta
+  # Returns a category's metadata, which is extraced from stories/section_identifier/meta
   #
-  def meta(category) 
-    contents = read_conditionally meta_path(category)
+  def get_section(identifier) 
+    cached = SECTIONS[identifier]
+    return cached if cached
+
+    contents = read_conditionally meta_path(identifier)
     contents = contents || ""
     result = "{"
     contents.each_line do |l| 
@@ -52,32 +71,20 @@ module Lib
     end
     result = result + "}"
     result = eval(result)
-    result[:id] = category
-    result
+    section = Section.new
+    section.identifier = identifier
+    section.name = result[:name]
+    section.color = result[:color]
+    SECTIONS[identifier] = section
   end
 
-  #
-  # Given a story, returns its section name
-  #
-  def section_name_for(story)
-    story[:section]
-  end
-  
   #
   # Given a section's name, returns a hash containing the section metadata
   #
   def section_with_name(name) 
-    @sections.find { |s| s[:id] == name }    
+    @sections.find { |s| s.identifier == name }    
   end
   
-  #
-  # Given a story, returns the section metadata it belongs to
-  #
-  def section_for(story) 
-    name = section_name_for story
-    section_with_name name
-  end
-
   #
   # Given a story, return its category's color in html format
   #
@@ -116,37 +123,47 @@ module Lib
   #
   def get_story(*path)
     path = split(*path)
-    category = path.first
+    section = path.first
     id = path.last
-    contents = read_conditionally(STORIES_DIR + category + "/" + id)
+    cached = STORIES["#{section}/#{id}"]
+    return cached if cached
+    contents = read_conditionally(STORIES_DIR + section + "/" + id)
     return nil unless contents
-    meta = []
+    meta = {:photo => []}
     body = []
-    state = 0
+    state = READING_METADATA
     contents.each_line do |line|
-      if state == 0
+      if state == READING_METADATA
         if line == "\n"
-          state = 1
+          state = READING_BODY
         else
           line.gsub! "\n", ""
-          line = line.split("=")
-          line = ":" + line.first + " => " + line.last
-          meta << line
+          regexp = /(\w+)\s*[=:]\s*(.*)/
+          matches = regexp.match line
+          if matches
+            key = matches[1].to_sym
+            value = eval(matches[2])
+            if meta[key]
+                value = [meta[key], value].flatten
+            end
+            meta[key] = value
+          end
         end
       else
         body << line
       end
     end
-    meta = eval("{" + meta.join(",") + "}")
     short = meta[:short] || "#{body.first[0..20]}..."
-    { :meta => meta, 
-      :title => meta[:title], 
-      :body => body, 
-      :short => short, 
-      :section => category, 
-      :id => id, 
-      :path => "/#{category}/#{id}"
-    }
+
+    story = Story.new
+    story.meta = meta
+    story.title = meta[:title]
+    story.body = body
+    story.short = short
+    story.identifier = id
+    story.path = "/#{section}/#{id}"
+    story.section = get_section(section)
+    STORIES["#{section}/#{id}"] = story
   end
   
   def get_timeline

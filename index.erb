@@ -9,13 +9,9 @@
         <img alt="" src="home.png" />
       </a>
       -->
-      <% @sections.each do |category|
-        id = category[:id]
-        name = category[:name]
-        color = category[:color]
-      %>
-        <div class="navitem" style="border-bottom: 3px solid <%= color %>">
-          <%= name %>
+      <% @sections.each do |section| %>
+        <div class="navitem" style="border-bottom: 3px solid <%= section.color %>">
+          <%= section.name %>
         </div>          
       <% end %>
     </div>
@@ -41,23 +37,21 @@
   
         <% headline = get_story("gul/headline2") %>
         <div class="intro">
-          <h1><%= headline[:title] %></h1>
+          <h1><%= headline.title %></h1>
           <p>
-            <%= headline[:body] %>
+            <%= headline.body %>
           </p>
         </div>
       </div>
 
       <% story = @timeline.last %>
 
-      <% section = section_for(story)[:id] %>
-
-      <div id="mainstory" class="story_<%= section %>">
+      <div id="mainstory" class="story_<%= story.section.identifier %>">
         <div class="title">
-          <%= story[:title] %>
+          <%= story.title %>
         </div>
         <div class="body">
-          <%= story[:body] %>
+          <%= story.body %>
         </div>
       </div>
       
@@ -75,9 +69,9 @@
           <h1>Noticias anteriores</h1>
           <ul>
             <% @timeline.reverse[1..-1].each do |story| %>
-            <li class="menuitem_<%= story[:section] %>" >
-              <a href="<%= story[:path] %>">
-                <%= story[:title] %>
+            <li class="menuitem_<%= story.section.identifier %>" >
+              <a href="<%= story.path %>">
+                <%= story.title %>
               </a>
             </li>
             <% end %>

@@ -1,19 +1,15 @@
 <% @sections.each do |section| %>
-.menuitem_<%= section[:id] %> {
+.menuitem_<%= section.identifier %> {
   padding-left: 5px;
 }
 
-.menuitem_<%= section[:id] %>:hover {
+.menuitem_<%= section.identifier %>:hover {
   padding-left: 2px;
-  border-left: 3px solid <%= section[:color] %>;
+  border-left: 3px solid <%= section.color %>;
 }
 
-.story_<%= section[:id] %> {
-  border-bottom: 3px solid <%= section[:color] %>; 
+.story_<%= section.identifier %> {
+  border-bottom: 3px solid <%= section.color %>; 
 }
 
-.transparent_<%= section[:id] %> {
-  <% c = rgb(section[:color]) %>
-  background-color: rgba(<%= c[:red] %>, <%= c[:green] %>, <%= c[:blue] %>, 0.1);
-}
 <% end %>
