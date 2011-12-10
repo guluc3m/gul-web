@@ -11,3 +11,9 @@
     <link href="<%= path %>twitter.css" rel="stylesheet" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+	function showSubscribeForm(){
+		document.getElementById("botonaco").innerHTML='<form method="POST" action="https://gul.uc3m.es/mailman/subscribe/gul" ><input type="text" name="email" size="15" value="Direcci&oacute;n de email"/><input type="submit"/></form>';
+		document.getElementById("botonaco").onclick="";
+	}
+    </script>
