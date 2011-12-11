@@ -186,13 +186,16 @@ h1 {
 	padding-bottom: 20px
 }
 
-#fortunes pre {
+#fortunes {
 	clear: both;
+}
+
+#fortunespre {
+	padding:0;
 	padding-top: 20px;
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	padding:0;
 	text-align: right;
 	font-family: 'Montez';
 	font-size: 16px;	
