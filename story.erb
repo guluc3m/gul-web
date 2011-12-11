@@ -30,16 +30,13 @@
         <%= partial("story") %>
       </div>  
       
-      <% remaining_timeline = @timeline.select { |story| story.identifier != @story.identifier } %>
-
-<!--
-      <% if remaining_timeline.size > 0 %>
+      <% if @timeline.size > 0 %>
         <div class="more_in_section">
           <h1>
             Relacionadas:
           </h1>
           <ul>
-          <% remaining_timeline.each do |story| %>
+          <% @timeline.each do |story| %>
             <li class="menuitem_<%= story.section.identifier %>">
             <a href="<%= story.path %>">
               <%= story.title %>
@@ -50,7 +47,7 @@
         </div>
       <% end %>
     </div>
--->        
+
     <div id="fortunes">
 <!--      Aquí van las fortunes -->
     </div>

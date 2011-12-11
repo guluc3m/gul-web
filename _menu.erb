@@ -7,6 +7,16 @@
           <p id="slogan">
             Nos gusta jugar con la tecnología
           </p>
+          <div id="photostream">
+            <h1>Fotos</h1>
+            <% if @photos %>
+              <% @photos.each do |photo| %>
+                <a href="<%= photo.path %>">
+                  <img src="<%= photo.thumbnail %>" width="50" />
+                </a>  
+                <% end %>
+            <% end %>
+          </div>
         </div>
         <div class="menubox">
           <h1>La asociación</h1>

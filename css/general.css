@@ -283,6 +283,40 @@ h1 {
 
 #botonaco:active {
    border-top-color: #d69d53;
-   background: #d69d53;
 }
 
+#photostream {
+   width: 210px;
+   float: right;
+   margin-right: 10px;
+}
+
+#photostream h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	padding:0;
+	margin:0;
+	font-size: 16px;
+    border-bottom: 1px solid #ccc;
+	margin-bottom: 2px;
+	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+}
+
+#photostream a {
+	border:0;
+	text-decoration: none;
+	margin:0;
+	padding:0;
+}
+
+#photostream a:hover {
+	border:0;
+	text-decoration: none;
+	background: transparent;
+}
+
+#photostream img {
+	margin:0;
+	padding:0;
+	border:0;
+}
