@@ -300,6 +300,7 @@ h1 {
     border-bottom: 1px solid #ccc;
 	margin-bottom: 2px;
 	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+	color: #666;
 }
 
 #photostream a {
