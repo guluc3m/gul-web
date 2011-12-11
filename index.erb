@@ -3,6 +3,7 @@
     <%= partial("head") %>
   </head>
   <body>
+    <script src="js/jquery-1.7.1.min.js"></script>
     <div id="nav">
       <!--
       <a href="index.html">
@@ -44,15 +45,10 @@
         </div>
       </div>
 
-      <% story = @timeline.last %>
+      <% @story = @timeline.last %>
 
-      <div id="mainstory" class="story_<%= story.section.identifier %>">
-        <div class="title">
-          <%= story.title %>
-        </div>
-        <div class="body">
-          <%= story.body %>
-        </div>
+      <div id="mainstory" class="story_<%= @story.section.identifier %>">
+        <%= partial("story") %>
       </div>
       
       <div id="morestories">
@@ -65,7 +61,7 @@
           <%= twitter_for "holamundoradio" %>
         </div>                        
         
-	<div class="story">
+        <div class="story">
           <h1>Noticias anteriores</h1>
           <ul>
             <% @timeline.reverse[1..-1].each do |story| %>

@@ -1,7 +1,83 @@
+
 module Lib
 
+  class Picture
+    def initialize(imgroot, img) 
+      imgroot = imgroot[0..-2] if imgroot.end_with? "/" # remove last "/" if needed
+      imgroot = "/#{imgroot}" unless imgroot.start_with? "/" # add first "/" if needed
+      @imgroot = imgroot
+      @img = img
+      img_without_extension = @img.split(".")[0..-2] # remove extension .jpg, .png, etc.
+      Dir.entries("html/#{@imgroot}").each do |c|
+        regexp = /thumb_#{img_without_extension}/
+        if regexp.match(c)
+          @thumbnail = "#{@imgroot}/#{c}"
+        end
+      end
+    end
+
+    def path 
+      "#{@imgroot}/#{@img}"
+    end
+
+    def thumbnail
+      @thumbnail
+    end
+  end
+
   class Story 
-    attr_accessor :meta, :title, :body, :short, :section, :identifier, :path
+    attr_accessor :meta, :title, :body, :short, :section, :identifier, :path, :pictures
+   
+    #
+    # Creates a Story parsing the file located in stories/<section>/<id>
+    #
+    def initialize(section, id)
+      # parse the file
+      contents = read_conditionally(STORIES_DIR + section + "/" + id)
+      return nil unless contents
+      meta = {:img => []}
+      body = []
+      state = READING_METADATA
+      contents.each_line do |line|
+        if state == READING_METADATA
+          if line == "\n"
+            state = READING_BODY
+          else
+            line.gsub! "\n", ""
+            regexp = /(\w+)\s*[=:]\s*(.*)/
+            matches = regexp.match line
+            if matches
+              key = matches[1].to_sym
+              value = eval(matches[2])
+              if meta[key]
+                  value = [meta[key], value].flatten
+              end
+              meta[key] = value
+            end
+          end
+        else
+          body << line
+        end
+      end
+      @meta = meta
+      @body = body
+      @identifier = id
+      short = meta[:short] || "#{@body.first[0..20]}..."
+      @short = short
+      @title = meta[:title]
+      @path = "/#{section}/#{id}"
+      @section = get_section(section)
+      calculate_pictures_from(meta)
+    end
+
+    def calculate_pictures_from(meta)
+      @pictures = []
+      return unless meta[:imgroot] 
+      return unless meta[:img]
+      @pictures = meta[:img].collect do |img|
+        Picture.new(meta[:imgroot], img)
+      end
+    end
   end
 
   class Section
@@ -127,42 +203,7 @@ module Lib
     id = path.last
     cached = STORIES["#{section}/#{id}"]
     return cached if cached
-    contents = read_conditionally(STORIES_DIR + section + "/" + id)
-    return nil unless contents
-    meta = {:photo => []}
-    body = []
-    state = READING_METADATA
-    contents.each_line do |line|
-      if state == READING_METADATA
-        if line == "\n"
-          state = READING_BODY
-        else
-          line.gsub! "\n", ""
-          regexp = /(\w+)\s*[=:]\s*(.*)/
-          matches = regexp.match line
-          if matches
-            key = matches[1].to_sym
-            value = eval(matches[2])
-            if meta[key]
-                value = [meta[key], value].flatten
-            end
-            meta[key] = value
-          end
-        end
-      else
-        body << line
-      end
-    end
-    short = meta[:short] || "#{body.first[0..20]}..."
-
-    story = Story.new
-    story.meta = meta
-    story.title = meta[:title]
-    story.body = body
-    story.short = short
-    story.identifier = id
-    story.path = "/#{section}/#{id}"
-    story.section = get_section(section)
+    story = Story.new(section, id)
     STORIES["#{section}/#{id}"] = story
   end
   

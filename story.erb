@@ -27,12 +27,7 @@
       <% end %>
       
       <div id="mainstory" class="story_<%= @story.section.identifier %>">
-        <div class="title">
-          <%= @story.title %>
-        </div>
-        <div class="body">
-          <%= @story.body %>
-        </div>
+        <%= partial("story") %>
       </div>  
       
       <% remaining_timeline = @timeline.select { |story| story.identifier != @story.identifier } %>

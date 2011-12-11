@@ -1,0 +1,13 @@
+        <div class="title">
+          <%= @story.title %>
+        </div>
+        <div class="body">
+          <%= @story.body %>
+          <p>
+            <% @story.pictures.each do |picture| %>
+              <a href="<%= picture.path %>">
+                <img src="<%= picture.thumbnail %>"/>
+              </a>
+            <% end %>
+          </p>
+        </div>
