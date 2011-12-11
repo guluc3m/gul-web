@@ -38,7 +38,7 @@
             Relacionadas:
           </h1>
           <ul>
-          <% @timeline.each do |story| %>
+          <% @timeline.reverse.each do |story| %>
             <li class="menuitem_<%= story.section.identifier %>">
             <a href="<%= story.path %>">
               <%= story.title %>
