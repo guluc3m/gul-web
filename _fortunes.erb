@@ -5,14 +5,22 @@
     </div>
     
     <script>
-      $(document).ready(function() {
+      function updateFortunes() {
         var nFortunes = <%= Fortunes.count %>;
         var fortuneID = Math.floor(Math.random() * nFortunes);
         var URL = "/<%= Fortunes::FOLDER %>/f" + fortuneID;
         $.ajax(URL, {
-          success: function(data) { 
-            $('#fortunespre').html(data);
+          success: function(data) {
+            html = "#" + fortuneID + "\n" + data 
+            $('#fortunespre').html(html);
           }
-        });
-      });
+        });        
+      }
+      
+      function setupFortunes() {
+        updateFortunes();
+        $('#fortunespre').click(updateFortunes)
+      }
+      
+      $(document).ready(setupFortunes);
     </script>
