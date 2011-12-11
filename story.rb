@@ -1,6 +1,7 @@
 require 'erb'
 require 'pp'
 require 'lib'
+require 'fortunes'
 
 include Lib
 

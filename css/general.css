@@ -209,8 +209,9 @@ h1 {
 	clear: both;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
 	font-size:10px;
+	border-top: 1px solid #bbb;
+	background: rgba(90, 114, 125, 0.1);
 }
 
 #main br {

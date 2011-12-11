@@ -9,7 +9,7 @@ module Twitter
         rpp: 4,
         interval: 30000,
         width: 250,
-        height: 0,
+        height: 100,
         theme: {
           shell: {
             background: 'transparent',

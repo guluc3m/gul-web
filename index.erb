@@ -3,7 +3,8 @@
     <%= partial("head") %>
   </head>
   <body>
-    <script src="js/jquery-1.7.1.min.js"></script>
+    <%= partial("javascript") %>
+
     <div id="nav">
       <!--
       <a href="index.html">
@@ -71,16 +72,13 @@
             <% end %>
           </ul>
         </div>
-
-
+        
       </div>
       
     </div>
 
     <%= partial("fortunes") %>
 
-    <div id="footer">
-      Última actualización: <%= Time.now %>
-    </div>
+    <%= partial("footer") %>
   </body>
 </html>

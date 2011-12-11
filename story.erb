@@ -3,6 +3,8 @@
     <%= partial("head") %>  
   </head>
   <body>
+    <%= partial("javascript") %>
+    
     <div id="nav">
       <!--
       <a href="index.html">
@@ -48,12 +50,8 @@
       <% end %>
     </div>
 
-    <div id="fortunes">
-<!--      Aquí van las fortunes -->
-    </div>
-    
-    <div id="footer">
-      Última actualización: <%= Time.now %>
-    </div>
+    <%= partial("fortunes") %>
+
+    <%= partial("footer") %>
   </body>
 </html>
