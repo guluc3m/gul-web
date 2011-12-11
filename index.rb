@@ -2,6 +2,7 @@ require 'erb'
 require 'pp'
 require 'lib'
 require 'twitter'
+require 'fortunes'
 
 include Lib
 include Twitter

@@ -1,6 +1,6 @@
 OUT=html
 
-all: html css
+all: html css fortunes
 html: index.html stories
 css: announce.css general.css css.css story.css twitter.css
 
@@ -16,7 +16,11 @@ css.css: css.rb css.erb
 stories:
 	bash makestories.sh
 
+fortunes:
+	mkdir -p html/fortunes
+	cp fortunes/* html/fortunes
+
 clean: 
 	rm ${OUT}/*html
 
-.PHONY: stories
+.PHONY: stories fortunes

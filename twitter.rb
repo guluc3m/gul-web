@@ -1,5 +1,5 @@
 module Twitter
-  def twitter_for (user) 
+  def for (user) 
     erb = <<-EOF
       <script src="http://widgets.twimg.com/j/2/widget.js"></script>
       <script>
@@ -33,4 +33,6 @@ module Twitter
       template = ERB.new(erb)
       template.result(binding)
   end
+
+  module_function :for
 end

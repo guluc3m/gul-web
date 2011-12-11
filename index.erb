@@ -52,11 +52,11 @@
       <div id="morestories">
 
         <div class="story">
-          <%= twitter_for "guluc3m" %>
+          <%= Twitter.for "guluc3m" %>
         </div>
 
         <div class="story">
-          <%= twitter_for "holamundoradio" %>
+          <%= Twitter.for "holamundoradio" %>
         </div>                        
         
         <div class="story">
@@ -76,11 +76,9 @@
       </div>
       
     </div>
-        
-    <div id="fortunes">
-<!--      Aquí van las fortunes -->
-    </div>
-    
+
+    <%= partial("fortunes") %>
+
     <div id="footer">
       Última actualización: <%= Time.now %>
     </div>

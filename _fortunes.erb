@@ -1,0 +1,18 @@
+
+    <div id="fortunes">
+      <pre id="fortunespre">
+      </pre>
+    </div>
+    
+    <script>
+      $(document).ready(function() {
+        var nFortunes = <%= Fortunes.count %>;
+        var fortuneID = Math.floor(Math.random() * nFortunes);
+        var URL = "/<%= Fortunes::FOLDER %>/f" + fortuneID;
+        $.ajax(URL, {
+          success: function(data) { 
+            $('#fortunespre').html(data);
+          }
+        });
+      });
+    </script>

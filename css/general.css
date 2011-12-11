@@ -186,7 +186,7 @@ h1 {
 	padding-bottom: 20px
 }
 
-#fortunes {
+#fortunes pre {
 	clear: both;
 	margin-top: 10px;
 	width: 900px;
