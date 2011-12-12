@@ -197,10 +197,9 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: right;
-	font-family: 'Montez';
-	font-size: 16px;	
-	color: #888;
-	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 16px;
+	color: #666;
 }
 
 #footer {
