@@ -200,6 +200,7 @@ h1 {
 	font-family: 'Architects Daughter', cursive;
 	font-size: 16px;
 	color: #666;
+	cursor: default;
 }
 
 #footer {
@@ -276,6 +277,7 @@ h1 {
    width:200px;
    height: 35px;
    padding-top: 20px;
+   cursor: default;
 }
 
 #botonaco:hover {
