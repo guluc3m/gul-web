@@ -235,6 +235,7 @@ h1 {
 
 .intro:first-child {
 	margin-left: 10px;
+	overflow: hidden;
 }
 
 .intro:last-child {
@@ -261,9 +262,9 @@ h1 {
    background: -moz-linear-gradient(top, #ffd659, #c47200);
    background: -ms-linear-gradient(top, #ffd659, #c47200);
    background: -o-linear-gradient(top, #ffd659, #c47200);
-   -webkit-border-radius: 9px;
-   -moz-border-radius: 9px;
-   border-radius: 9px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
    box-shadow: rgba(0,0,0,1) 0 1px 0;
@@ -274,6 +275,7 @@ h1 {
    text-align: center;
    margin-top: 10px;
    margin-left: 35px;
+   margin-bottom: 20px;
    width:200px;
    height: 35px;
    padding-top: 20px;
@@ -288,6 +290,43 @@ h1 {
 
 #botonaco:active {
    border-top-color: #d69d53;
+}
+
+#mlform {
+	margin-top: 3px;
+	padding-top: 10px;
+	text-align: center;
+    border-radius: 5px;
+	background: #a4d392;
+/*	background: #f80;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffd659), to(#c47200));
+    background: -webkit-linear-gradient(top, #ffd659, #c47200);
+    background: -moz-linear-gradient(top, #ffd659, #c47200);
+    background: -ms-linear-gradient(top, #ffd659, #c47200);
+    background: -o-linear-gradient(top, #ffd659, #c47200);
+*/}
+
+#mlform p {
+	font-size: 10px;
+	margin:0;
+	padding:0;
+	padding-bottom: 3px;
+}
+
+#mlform input#mail {
+	border: 1px solid #c192d3;
+}
+
+.inputlight {
+	color: #888;
+}
+
+.inputstrong {
+	color: #333;
+}
+
+#mlform p a {
+	color: #666;
 }
 
 #photostream {

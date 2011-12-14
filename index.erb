@@ -35,6 +35,16 @@
           <div id="botonaco" onclick="showSubscribeForm();">
             Apúntate a la lista de correo
 	        </div>
+	        <div id="mlform">
+	          <form method="POST" action="https://gul.uc3m.es/mailman/subscribe/gul">
+	            <input id="mail" class="inputlight" type="text" name="email" size="25" value="Direcci&oacute;n de email"/>
+	            <input type="submit"/>
+	          </form>
+	          <p>
+	          Esta suscripción es para la <a href="https://gul.uc3m.es/mailman/listinfo/gul">lista de correo GUL</a>. 
+	          Ni te cobraremos ni te enviaremos publicidad. 
+	          </p>
+	        </div>
         </div>
   
         <% headline = get_story("gul/headline2") %>
