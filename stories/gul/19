@@ -57,23 +57,25 @@ var script = [
     ["v2", "En HolaMundo también hacen divulgación."], 
     ["e2", "Espera, ¿van a ir los de HolaMundo a cenar?"], 
     ["v2", "Evidentemente."], 
-    ["e2", "¿Va a ir el presentador?"], 
+    ["e2", "¿Va a ir Roberto?"], 
     ["v2", "Si."], 
-    ["e2", "Entonces voy."], 
-];
+    ["c",  "Me apunto."], 
+]; 
 
 var align = {
     "v1" : "right", 
     "v2" : "right", 
     "b" : "left", 
     "e1" : "center", 
-    "e2" : "left"
+    "e2" : "left", 
+    "c" : "center"
 }
 
 var colors = {
     "v" : "#fff", 
     "b" : "#0af", 
-    "e" : "#f8f"
+    "e" : "#f8f",
+    "c" : "#ddf"
 }
 
 var slide = 0;
