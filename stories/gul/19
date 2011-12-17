@@ -1,0 +1,96 @@
+title = "Cena de navidad 2011"
+
+Recordad, tenemos cena navideña en el GUL:
+<ul>
+<li>Fecha: 17-dic-2011 </li>
+<li>Hora: 20:00 GMT+1 </li>
+<li>Lugar: Rotonda del edificio Sabatini, 40.331824,-3.767731 </li>
+</ul>
+
+<div id="vendetta" style="background-repeat: no-repeat; background-image: url(img/gul19/v1.png); width:400; max-height:200; background-size: 100%; padding-top: 180px;">
+  <div id="ventext" style="font-size: 20px; background: rgba(0, 0, 0, 0.5); margin:0; padding:0;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+  </div>
+</div>
+
+<p>
+(Haz click en la viñeta para avanzar...)
+</p>
+
+<script  type="text/javascript">
+var script = [
+    ["v1", "¿Vendrás a la fiesta esta noche?"], 
+    ["b",  "No puedo, tengo planes."], 
+    ["v1", "¿Justo hoy?"], 
+    ["b",  "Fíjate qué mala suerte."], 
+    ["v1", "¿Y no puedes ir otro día?"], 
+    ["b",  "De verdad que he quedado."], 
+    ["v1", "¿Con el plugin de flash quízá?"], 
+    ["b",  "No me funciona."], 
+    ["e1", "¿Y por qué?"], 
+    ["b",  "Tengo Red Hat."], 
+    ["e1", "¿Y por qué has instalado Red Hat?"], 
+    ["b",  "Es que es la más usada."], 
+    ["v1", "¿Y eso qué importa?"], 
+    ["b",  "Hay que conocer el entorno empresarial."], 
+    ["v1", "No es excusa."], 
+    ["e2", "Hombre, algo de razón tiene."], 
+    ["v2", "¿En qué?"], 
+    ["e2", "En que no está mal aprender algo de eso."], 
+    ["v2", "¿También usas Red Hat?"], 
+    ["e2", "Mandriva."], 
+    ["v2", "No me jodas."], 
+    ["e2", "No es tan mala..."], 
+    ["b",  "Es un dolor."], 
+    ["e1", "¡Al menos tengo flash!"], 
+    ["v1", "Bueno, ¿vais a dejar de hacer el friki..."], 
+    ["v1", "... y a venir a la cena?"], 
+    ["b",  "Bueno, vale, iré."], 
+    ["e2", "Yo he quedado."], 
+    ["v2", "No fastidies."], 
+    ["e2", "Me voy a una maratón..."], 
+    ["e2", "...de Sexo En Nueva York."], 
+    ["b",  "Vaya basura de plan."], 
+    ["e1", "¡Me gusta esa serie!"],
+    ["e1", "¡Trata sobre sentimientos!"], 
+    ["e1", "¡Y luego veré a Punset!"], 
+    ["e1", "¡Porque me gusta la divulgación!"], 
+    ["v2", "En HolaMundo también hacen divulgación."], 
+    ["e2", "Espera, ¿van a ir los de HolaMundo a cenar?"], 
+    ["v2", "Evidentemente."], 
+    ["e2", "¿Va a ir el presentador?"], 
+    ["v2", "Si."], 
+    ["e2", "Entonces voy."], 
+];
+
+var align = {
+    "v1" : "right", 
+    "v2" : "right", 
+    "b" : "left", 
+    "e1" : "center", 
+    "e2" : "left"
+}
+
+var colors = {
+    "v" : "#fff", 
+    "b" : "#0af", 
+    "e" : "#f8f"
+}
+
+var slide = 0;
+
+function proclaim(backgorund, text) {
+  $('ventext').val('text')
+}
+
+function impetus() {
+  s = script[slide];
+  picture = s[0];
+ 
+  $('#vendetta').css("background-image", "url(img/gul19/" + s[0] + ".png)");
+  $('#ventext').text(s[1]).css("color", colors[picture[0]]).css("text-align", align[picture]);
+  slide = slide + 1;
+}
+
+$('#vendetta').click(impetus);
+impetus();
+</script>
