@@ -30,7 +30,7 @@ var script = [
     ["b",  "Tengo Red Hat."], 
     ["e1", "¿Y por qué has instalado Red Hat?"], 
     ["b",  "Es que es la más usada."], 
-    ["v1", "¿Y eso qué importa?"], 
+    ["e1", "¿Y eso qué importa?"], 
     ["b",  "Hay que conocer el entorno empresarial."], 
     ["v1", "No es excusa."], 
     ["e2", "Hombre, algo de razón tiene."], 
