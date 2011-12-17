@@ -88,7 +88,7 @@ function impetus() {
   s = script[slide];
   picture = s[0];
  
-  $('#vendetta').css("background-image", "url(img/gul19/" + s[0] + ".png)");
+  $('#vendetta').css("background-image", "url(/img/gul19/" + s[0] + ".png)");
   $('#ventext').text(s[1]).css("color", colors[picture[0]]).css("text-align", align[picture]);
   slide = slide + 1;
 }
