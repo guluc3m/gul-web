@@ -24,7 +24,7 @@ var script = [
     ["b",  "Fíjate qué mala suerte."], 
     ["v1", "¿Y no puedes ir otro día?"], 
     ["b",  "De verdad que he quedado."], 
-    ["v1", "¿Con el plugin de flash quízá?"], 
+    ["v1", "¿Tienes una cita con el plugin de flash quízá?"], 
     ["b",  "No me funciona."], 
     ["e1", "¿Y por qué?"], 
     ["b",  "Tengo Red Hat."], 
