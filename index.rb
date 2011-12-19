@@ -10,13 +10,18 @@ include Twitter
 @sections = read_sections
 @timeline = get_timeline
 @announce = read_conditionally "announce.txt"
+@last_updated = read_conditionally("last.dat").chomp
 @story = @timeline.last
 @photos = @timeline.collect do |story|
   story.pictures
 end
 @photos.flatten!
 
-template = ERB.new(File.new("index.erb").read)
+templates = {
+  "--rss" => "rss.erb",
+  "--html" => "index.erb"
+}
+template_name = templates[ARGV[0]] || templates["--html"]
+
+template = ERB.new(File.new(template_name).read)
 puts template.result(binding)
-
-

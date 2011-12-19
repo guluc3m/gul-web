@@ -1,0 +1,34 @@
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+  <title>GUL UC3M</title>
+  <atom:link href="http://gul.es/rss" rel="self" type="application/rss+xml"/>
+  <link>http://gul.es</link>
+  <description/>
+  <lastBuildDate><%= @last_updated %></lastBuildDate>
+  <language>es</language>
+  <sy:updatePeriod>hourly</sy:updatePeriod>
+  <sy:updateFrequency>1</sy:updateFrequency>
+  <generator>http://gul.es</generator>
+  <image>
+    <url>http://gul.es/favicon.ico</url>
+    <title>GUL UC3M</title>
+    <link>http://gul.es</link>
+  </image>
+  <% @timeline.reverse.each do |story| %>
+  <item>
+    <title><%= story.title %></title>
+    <link>http://gul.es<%= story.path %></link>
+    <pubDate><%= story.updated %></pubDate>
+    <category><%= story.section.name %></category>
+    <guid isPermaLink="true">http://gul.es<%= story.path %></guid>
+    <description></description>
+    <content:encoded></content:encoded>
+    <% story.pictures.each do |picture| %>
+    <media:content url="http://gul.es<%= picture.path %>" medium="image">
+      <media:title type="html">GUL UC3M IMAGE</media:title>
+    </media:content>
+    <% end %>
+  </item>
+  <% end %>
+  </channel>
+</rss>

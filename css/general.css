@@ -186,6 +186,12 @@ h1 {
 	padding-bottom: 20px
 }
 
+#mainstory .date {
+	color: #aaa;
+	font-size: 10px;
+	text-align: right;
+}
+
 #fortunes {
 	clear: both;
 }

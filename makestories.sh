@@ -1,6 +1,11 @@
 #!/bin/bash
 STORIES=
 CATEGORIES=
+RSS=rss.dat
+LAST=last.dat
+rm $RSS
+LAST_UPDATED=$(git log -n1 --pretty=format:%cD)
+echo "$LAST_UPDATED" > $LAST
 
 pushd stories > /dev/null
 for category in *
@@ -22,11 +27,13 @@ popd > /dev/null
 
 for category in $CATEGORIES
 do
-	mkdir html/$category
+	mkdir -p html/$category
 done
 
 for story in $STORIES
 do
+    DATE=$(git log -n1 --pretty=format:%cD -- stories/$story)
+	echo $story=$DATE >> $RSS
 	echo Generating $story ...
 	ruby story.rb $story > html/$story
 done

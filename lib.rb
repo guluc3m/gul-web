@@ -26,7 +26,7 @@ module Lib
   end
 
   class Story 
-    attr_accessor :meta, :title, :body, :short, :section, :identifier, :path, :pictures
+    attr_accessor :meta, :title, :body, :short, :section, :identifier, :path, :pictures, :updated
    
     #
     # Creates a Story parsing the file located in stories/<section>/<id>
@@ -91,6 +91,7 @@ module Lib
   STORIES = {}
 
   STORIES_DIR = "stories/"
+  RSS_FILE = "rss.dat"
   READING_METADATA = 0
   READING_BODY = 1
 
@@ -198,7 +199,9 @@ module Lib
   # Given a story path, returns a hash with metadata, title, body, etc.
   #
   def get_story(*path)
-    path = split(*path)
+    if path.length == 1
+      path = path.first.split("/")
+    end
     section = path.first
     id = path.last
     cached = STORIES["#{section}/#{id}"]
@@ -210,7 +213,21 @@ module Lib
   def get_timeline
     timeline = read_conditionally timeline_path
     timeline = timeline.split("\n")
-    timeline.collect! { |line| get_story(line) }    
+    timeline.collect! { |line| get_story(line) }
+    get_rss
+    timeline
+  end
+  
+  def get_rss
+    rss = read_conditionally RSS_FILE
+    return unless rss
+    rss.each_line do |line|
+      line = line.split("=")
+      file = line.first
+      date = line.last.chomp
+      story = get_story(file)
+      story.updated = date
+    end
   end
   
   def partial(name) 
