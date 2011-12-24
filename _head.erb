@@ -21,6 +21,15 @@
           }
         });
       }
+        
+      var expanded = false;
+      function showMainStory() {
+        toSize = expanded ? 300 : 7000;
+        expanded = !expanded;
+        $("#mainstory .body").animate({
+          "max-height": "" + toSize + "px"
+        }, 1000);
+      }
     </script>
     
     <script type="text/javascript">

@@ -182,14 +182,26 @@ h1 {
 #mainstory .body {
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px
+	padding-bottom: 20px;
+	overflow: scroll;
+	max-height: 350px;
 }
 
 #mainstory .date {
 	color: #aaa;
 	font-size: 10px;
 	text-align: right;
+}
+
+#mainstory .expand {
+	height: 5px;
+	text-align: center;
+	color:#888;
+	cursor: normal;
+}
+
+#mainstory .expand:hover {
+	background: #666;
 }
 
 #fortunes {
