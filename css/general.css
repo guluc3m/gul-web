@@ -184,6 +184,7 @@ h1 {
 	padding-right: 20px;
 	padding-bottom: 20px;
 	overflow: scroll;
+	min-height: 250px;
 	max-height: 550px;
 }
 

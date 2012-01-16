@@ -1,5 +1,6 @@
 OUT=html
 RSS=html/rss
+
 all: html css fortunes
 html: stories rss index.html 
 css: announce.css general.css css.css story.css twitter.css
@@ -26,4 +27,7 @@ fortunes:
 clean: 
 	rm ${OUT}/*html
 
-.PHONY: stories fortunes
+test:
+	ruby webserver.rb 
+
+.PHONY: stories fortunes test
