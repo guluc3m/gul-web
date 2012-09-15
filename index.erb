@@ -18,16 +18,12 @@
       <% end %>
     </div>
 
-    <%= partial("menu") %>  
- 
+    <div id="announce">
+    </div>
+
+    <%= partial("menu") %>
+
     <div id="main">
-      
-      <% if @announce %>
-        <div id="announce">
-          <%= @announce %>
-        </div>
-      <% end %>
-     
       <div> 
         <% headline = get_story("gul/headline1") %>
         <div class="intro">

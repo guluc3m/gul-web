@@ -46,3 +46,14 @@
        s.parentNode.insertBefore(ga, s);
      })();
     </script>
+    
+    <script type="text/javascript">
+      function annrefresh() {
+        $.ajax({
+            url: "/announce.txt", 
+        }).done(function(data) {
+            $("#announce").html(data);
+        });
+      }
+      setInterval (annrefresh, 5000);
+    </script>
