@@ -1,0 +1,83 @@
+
+WHAT IS THIS?
+
+  Just a bunch of dirty homebrew scripts to generate the gul.es webpage.
+
+
+OK SERIOUSLY, WHAT THE HELL IS THIS?
+
+  Some bash, ruby and makefiles.
+
+
+WHY DON'T YOU USE A SERIOUS CMS?
+
+  They are so insecure and require constant maintenance. And we are too lazy to update it every day. 
+
+
+AND AREN'T THERE ANY BETTER SOLUTION THAN MAKEFILES AND SCRIPTS?
+
+  Probably yes, but we are too lazy to google it.
+
+
+OK HOW I USE IT?
+
+  Install GNU make, ruby, and probably something more that I can't remember right now.
+  Run make and make test. Go to http://localhost:8080 and there you are.
+
+
+BUT WHAT ABOUT THE DATABASE?
+
+  Our research team has developed a mechanism to embed a database without using DB servers. 
+  They have called it 'files'. They are to write like twenty papers about it and ask for 
+  a grant to develop this exciting new technology.
+
+
+AND WHAT ABOUT THE WEBSERVER? 
+
+  Any web server will work. Just set the html/ directory as the webserver root. And configure it to 
+  serve any file as HTML, not only the *.html ones.
+
+
+WHERE DOES 'MAKE TEST' INSTALL THE APPLICATION? HOW DO I CONFIGURE THE DEPLOYMENT PATH?
+
+  Nowhere. 'make test' runs an embedded webserver. It is a server written in a few minutes,
+  just for testing the webpage. Do not use in production, unless you enjoy constant crashes.
+
+
+WHY ARE YOU USING A HOMEBREW TEST WEBSERVER INSTEAD OF [insert here your favourite embedded webserver]?
+
+  Once more, because we are too lazy to find and configure one. 
+
+
+WHAT IS THE PUBLISHING WORKFLOW?
+
+  Sorry, the publishing what?
+
+
+HOW DO YOU PUBLISH A NEW STORY?
+
+  $ Create a file stories/[category]/[id] with the article content. See any existing one as a reference. 
+  $ Add [category]/[id] to stories/timeline.
+  $ (optional) make ; make test
+  $ git push origin master
+
+  The post-receive hook in the server does a "make" and verything is done. But you can use whatever yo prefer:
+  rsync, scp, whatever. And you can automate this with a script to, for example, post a story by sending it via 
+  email. Someone really did it at gul.es.
+
+
+SO EVERYTHING IS STATIC, NO DYNAMIC CONTENT IS ALLOWED?
+
+  The only dynamic content is the javascript-driven one, like Twitter and announces. Everything else is static.
+
+
+RSS?
+
+  /rss
+
+
+I WILL NOT USE THIS APPLICATION IN MY WHOLE LIFE. I REALY THINK IT'S THE WORST PROJECT PUBLISHED IN 
+THE WHOLE INTERNET.
+
+  Worst than NetworkManager?
+
