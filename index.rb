@@ -9,7 +9,6 @@ include Twitter
 
 @sections = read_sections
 @timeline = get_timeline
-@announce = read_conditionally "announce.txt"
 @last_updated = read_conditionally("last.dat").chomp
 @story = @timeline.last
 @photos = @timeline.collect do |story|
