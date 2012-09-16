@@ -1,9 +1,9 @@
 #announce {
 	text-align: center;
-	background: rgba(90, 114, 125, 0.7);
-	width:100%;
+	background: rgba(90, 114, 125, .7);
+	width: 100%;
     position: fixed;
-    top:0px;
+    top: 0;
     font-family: 'Lato', sans-serif;
     color: white;
 }
