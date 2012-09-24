@@ -1,0 +1,119 @@
+title = "Empezamos de nuevo"
+
+<p>
+    Después de unas catastróficas pruebas de emisión, 
+    este <strong>viernes 21 de septiembre a las 20:00</strong> horas empezamos de 
+    nuevo a emitir, esta vez desde nuestro local, 
+    con nuevos colaboradores, con Roberto a la mesa de mezclas, y con un montón
+    de aparatitos nuevos y divertidos.
+</p>
+
+<p>
+    Estad atentos a la web o al twitter 
+    <a href="https://twitter.com/holamundoradio">@holamundoradio</a> 
+    donde publicaremos el
+    enlace al directo y tened el teléfono cerca porque os pediremos un poco de ayuda.
+</p>
+
+<div id="vendetta" style="background-repeat: no-repeat; background-image: url(img/hm-nueva-temporada/l1.png); width:400; max-height:200; background-size: 100%; padding-top: 140px;">
+  <div id="ventext" style="font-size: 20px; background: rgba(0, 0, 0, 0.5); margin:0; padding:0;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+  </div>
+</div>
+
+<p>
+(Haz click en la viñeta para avanzar...)
+</p>
+
+<script  type="text/javascript">
+var script = [
+    ["l1", "Este viernes van a emitir HolaMundo"],
+    ["n1", "¿El programa de radio del GUL?"],
+    ["l1", "Ese, el de Roberto y los otros"],
+    ["n1", "¿El de la sintonía ochentera tipo Alf?"],
+    ["l1", "Ermmm si, ese."],
+    ["n1", "No me lo pierdo, ¿a qué hora es?"],
+    ["l1", "Creo que a las ocho de la noche"],
+    ["f1", "(Menos mal, antes de cenar)"],
+    ["l1", "Pero creo que ahora durará más"],
+    ["n1", "¿Cuánto?"],
+    ["l1", "Las pruebas que hicieron duraron varias horas"],
+    ["n1", "¿Varias horas?"],
+    ["f1", "(¿VARIAS HORAS?)"],
+    ["n1", "Tendrán un guión nutrido"],
+    ["l1", "Creo que si"], 
+    ["l1", "Llevan días escribiéndolo entre todos"],
+    ["n1", "¿Y cómo lo hacen? ¿Por email?"],
+    ["l1", "Nah, con google docs"], 
+    ["n1", "¿Y por qué no usan vim y ssh?"],
+    ["l1", "Porque vim es de maricas"], 
+    ["l1", "¿Qué es eso de pulsar i para escribir?"], 
+    ["l1", "¿Y luego ESC para dejar de escribir?"], 
+    ["n1", "Porque vim funciona con modos"],
+    ["n1", "Pulsas i para entrar en modo insert"], 
+    ["n1", "Y para salir al modo comandos pulsas ESC"], 
+    ["f1", "(¿Entonces no vamos a cenar?)"],
+    ["n1", "Al principio, vim cuesta pero luego es fácil"], 
+    ["l1", "Pues yo no me apaño, ¿y para cortar y pegar qué?"], 
+    ["n1", "Pues entras en modo visual pulsando v"], 
+    ["l1", "O sea, ¿primero ESC y luego v?"], 
+    ["n1", "Eso es"], 
+    ["l1", "Pues menuda mierda."], 
+    ["n1", "Cuando solo tienes un SSH es lo mejor"], 
+    ["l1", "Ya, pero en casa no usas ssh, trabajas en local"], 
+    ["t1", "Yo uso eclipse"], 
+    ["t1", "Es muy bonito y tiene plugins"], 
+    ["l1", "Eso es más para programar"], 
+    ["n1", "Con vim también puedes programar"], 
+    ["n1", "Mucho mejor que con eclipse"], 
+    ["t1", "Ya pero vim es léxico y eclipse sintáctico"], 
+    ["n1", "¿Y eso qué significa?"], 
+    ["t1", "Que sabe usar palabras pero no sabe qué significan"], 
+    ["t1", "Así que no puedes hacer cosas como"],
+    ["t1", "refactorizaciones, árboles de llamadas,"],
+    ["t1", "o mostrar los campos y funciones de las clases"],
+    ["n1", "Si que puedes, yo lo hago."], 
+    ["t1", "No, solo lo hace con el código del que dispone"], 
+    ["t1", "No puede hacerlo con InputStream, por ejemplo."], 
+    ["t1", "Eclipse sabe lo que es un classpath, o un jar, "], 
+    ["t1", "y sabe mirar las clases y entiende lo que contienen"], 
+    ["t1", "Vim solo entiende letras, no entiende su significado"], 
+    ["f1", "(¿Y si hacemos el programa después de cenar?)"],
+    ["n1", "No me convences, seguiré usando vim"],
+    ["n1", "Es más ligero."], 
+    ["l1", "Total, que el viernes a las 20 nos conectamos a gul.es"], 
+    ["l1", "A ver si siguen o no con el consultorio sentimental"], 
+    ["n1", "Espero que no."], 
+    ["l1", "En la web aparecerá la URL del streaming"], 
+    ["l1", "Y también en el twitter de @holamundoradio"], 
+    ["l1", "Estad atentos"], 
+    ["t1", "Estoy ansiosa."],
+];
+
+var align = {
+    "n1" : "right",
+    "l1" : "left",
+    "f1" : "center",
+    "t1" : "center"
+}
+
+var colors = {
+    "t" : "#faf",
+    "l" : "#ffa",
+    "n" : "#aff",
+    "f" : "#faa"
+}
+
+var slide = 0;
+
+function impetus() {
+  s = script[slide];
+  picture = s[0];
+
+  $('#vendetta').css("background-image", "url(/img/hm-nueva-temporada/" + s[0] + ".png)");
+  $('#ventext').text(s[1]).css("color", colors[picture[0]]).css("text-align", align[picture]);
+  slide = slide + 1;
+}
+
+$('#vendetta').click(impetus);
+impetus();
+</script>
