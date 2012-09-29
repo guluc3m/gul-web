@@ -9,13 +9,13 @@
 }
 
 .story_cursos {
-  border-bottom: 3px solid #86ac7c;
+  border-bottom: 3px solid #86ac7c; 
 }
 
-.transparent_cursos {
-  
-  background-color: rgba(134, 172, 124, 0.1);
+.fill_cursos {
+  background: #86ac7c;
 }
+
 
 .menuitem_gul {
   padding-left: 5px;
@@ -27,13 +27,13 @@
 }
 
 .story_gul {
-  border-bottom: 3px solid #e7d8a0;
+  border-bottom: 3px solid #e7d8a0; 
 }
 
-.transparent_gul {
-  
-  background-color: rgba(231, 216, 160, 0.1);
+.fill_gul {
+  background: #e7d8a0;
 }
+
 
 .menuitem_hm {
   padding-left: 5px;
@@ -45,10 +45,11 @@
 }
 
 .story_hm {
-  border-bottom: 3px solid #ab8c7c;
+  border-bottom: 3px solid #ab8c7c; 
 }
 
-.transparent_hm {
-  
-  background-color: rgba(171, 140, 124, 0.1);
+.fill_hm {
+  background: #ab8c7c;
 }
+
+
