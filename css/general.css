@@ -1,328 +1,326 @@
-body {
-	background: #f8f8f8;
-	background-image: url(bg.png);
-	color: #000;
-	font-family: helvetica, freesans, clean, sans-serif;
-	font-size: 14px;
-	padding: 0;
-	margin: 0;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
+/* css reset */
+body, h1 {
+    margin: 0;
+    padding: 0;
 }
 
-a {
-	color: #078;
-	text-decoration: none;
+
+body {
+    background: #f8f8f8;
+    background-image: url(bg.png);
+    color: #000;
+    font-family: helvetica, freesans, clean, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
 }
+
+a {	color: #078; }
 
 a:hover {
-	color: black;
-	background: rgba(0, 119, 136, .2);
-	text-decoration: none;
+    color: black;
+    background: rgba(0, 119, 136, .2);
 }
 
+a, a:hover { text-decoration: none }
+
 h1 {
-	font-family: 'Lato', sans-serif;
-	font-weight: normal;
-	padding: 0;
-	margin: 0;
-	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
 }
 
 #nav {
-	display: none;
-	background: black;
-	color:white;
-	height: 28px;
-	text-align: left;
-	font-size: 10px;
+    display: none;
+    background: black;
+    color:white;
+    height: 28px;
+    text-align: left;
+    font-size: 10px;
 }
 
 #nav img {
-	float: left;
-	padding-left: 0;
+    float: left;
+    padding-left: 0;
 }
 
 .navitem {
-	text-align: center;
-	float: left;
-	border: 0;
-	height: 22px;
-	vertical-align: middle;	
-	padding-top: 6px;
-	width: 100px;
-	margin-left: 0;
-	margin-right: 0;
-	color: #ccc;
+    text-align: center;
+    float: left;
+    border: 0;
+    height: 22px;
+    vertical-align: middle;	
+    padding-top: 6px;
+    width: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    color: #ccc;
 }
 
 .navitem:hover, 
 .navlogo:hover {
-	background: #333;
-	color: #fff;
+    background: #333;
+    color: #fff;
 }
 
 #menubar {
-	margin-top: 0;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	color: #888;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #888;
     background: rgba(90, 114, 125, .1);
-	border-bottom: 1px solid #bbb;
-	height: 90px;
+    border-bottom: 1px solid #bbb;
+    height: 90px;
 }
 
 #menu {
-	width: 906px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
+    width: 906px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
 }
 
 .logobox {
-	text-align: right;
-	float: left;
-	width: 280px;
-	height: 415px;
-	font-family: 'Lato', sans-serif;
-/*	background: rgba(0, 0, 0, 0.01);
-	border: 1px solid #ccc; 
-	border-radius: 5px; */
+    text-align: right;
+    float: left;
+    width: 280px;
+    height: 415px;
+    font-family: 'Lato', sans-serif;
+    /*	background: rgba(0, 0, 0, 0.01);
+    border: 1px solid #ccc; 
+    border-radius: 5px; */
 }
 
 .logobox a {
-	color: #444;
-	text-decoration: none;
+    color: #444;
+    text-decoration: none;
 }
 
 .logobox a:hover {
-	color: black;
-	background: rgba(128, 128, 128, .2);
+    color: black;
+    background: rgba(128, 128, 128, .2);
 }
 
 #hereweare {
-	margin: 0;
-	padding: 10px;
-	padding-top: 0;
-	font-size: 60px;
-	line-height: 50px;
-	font-weight: bold;
-	text-shadow: rgb(255, 255, 255) 0 1px 0;
+    margin: 0;
+    padding: 10px;
+    padding-top: 0;
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: bold;
+    text-shadow: rgb(255, 255, 255) 0 1px 0;
 }
 
 #slogan {
-	padding: 10px;
-	padding-top: 14px;
-	color: #555;
-	margin: 0;
-	font-size: 45px;
-	text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    padding: 10px;
+    padding-top: 14px;
+    color: #555;
+    margin: 0;
+    font-size: 45px;
+    text-shadow: rgb(255, 255, 255) 0 1px 0;
 }
 
 .menubox {
-	float: left;
-	width: 180px;
-	margin-left: 20px;
+    float: left;
+    width: 180px;
+    margin-left: 20px;
 }
 
 .menubox h1 {
-	padding-bottom: 5px;
-	margin-bottom: 5px;
-	font-size: 15px;
-	color: #111;
-	border-bottom: 1px solid #ccc;
-	text-shadow: rgb(255, 255, 255) 0 1px 0;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #111;
+    border-bottom: 1px solid #ccc;
+    text-shadow: rgb(255, 255, 255) 0 1px 0;
 }
 
 .menubox ul {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 #menu ul li {
-	list-style: none;
-	color: #078;
-	margin-bottom: 2px;
+    list-style: none;
+    color: #078;
+    margin-bottom: 2px;
 }
 
 #main {
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 20px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
 }
 
 #mainstory {
-	background: rgba(255, 255, 255, .5);
-	border-top: 1px solid #ddd;
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	border-radius: 5px;
-	box-shadow: rgb(255, 255, 255) 0 1px 0 0;
-	float: right;
-	width: 600px;
-	min-height: 280px;
-	margin-bottom: 10px;
-	color: #333;
+    background: rgba(255, 255, 255, .5);
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: rgb(255, 255, 255) 0 1px 0 0;
+    float: right;
+    width: 600px;
+    min-height: 280px;
+    margin-bottom: 10px;
+    color: #333;
 }
 
 #mainstory .title {
-	font-size: 18px;
-	padding-left: 20px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	padding: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
     background: rgb(90, 114, 125);
-/*	background-image: -webkit-linear-gradient(top, rgb(124, 156, 172), rgb(90, 114, 125));
-	background-image:    -moz-linear-gradient(top, rgb(124, 156, 172), rgb(90, 114, 125)); */
-	color: white;
-	text-shadow: #000 0 1px 0;  
+    /*	background-image: -webkit-linear-gradient(top, rgb(124, 156, 172), rgb(90, 114, 125));
+    background-image:    -moz-linear-gradient(top, rgb(124, 156, 172), rgb(90, 114, 125)); */
+    color: white;
+    text-shadow: #000 0 1px 0;  
 }
 
 #mainstory .body {
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	overflow: scroll;
-	min-height: 250px;
-	max-height: 550px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    overflow: scroll;
+    min-height: 250px;
+    max-height: 550px;
 }
 
 #mainstory .date {
-	color: #aaa;
-	font-size: 10px;
-	text-align: right;
+    color: #aaa;
+    font-size: 10px;
+    text-align: right;
 }
 
 #mainstory .expand {
-	height: 5px;
-	text-align: center;
-	color: #888;
-	cursor: normal;
+    height: 5px;
+    text-align: center;
+    color: #888;
+    cursor: normal;
 }
 
-#mainstory .expand:hover {
-	background: #666;
-}
+#mainstory .expand:hover { background: #666; }
 
 #fortunes {	clear: both; }
 
 #fortunespre {
-	padding: 0;
-	padding-top: 20px;
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: right;
-	font-family: 'Architects Daughter', cursive;
-	font-size: 16px;
-	color: #666;
-	cursor: default;
+    padding: 0;
+    padding-top: 20px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 16px;
+    color: #666;
+    cursor: default;
 }
 
 #footer {
-	margin-top: 100px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: #888;
-	text-align: center;
-	clear: both;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font-size: 10px;
-	border-top: 1px solid #bbb;
-	background: rgba(90, 114, 125, .1);
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #888;
+    text-align: center;
+    clear: both;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    border-top: 1px solid #bbb;
+    background: rgba(90, 114, 125, .1);
 }
 
 #main br { clear:both; }
 
 .intro {
-	float: right;
-	width: 290px;
-	height: 100px;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 10px;
+    float: right;
+    width: 290px;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
 }
 
 .intro p { color: #333; }
 
 .intro:first-child {
-	margin-left: 10px;
-	overflow: hidden;
+    margin-left: 10px;
+    overflow: hidden;
 }
 
 .intro:last-child {	margin-right: 10px; }
 
 .intro h1 {
-	color: #333;
-	border-bottom: 1px solid #ccc;	
-	text-shadow: rgb(255, 255, 255) 0 1px 0;	
+    color: #333;
+    border-bottom: 1px solid #ccc;	
+    text-shadow: rgb(255, 255, 255) 0 1px 0;	
 }
 
 .intro p {
-	padding-top: 10px;
-	padding-left: 10px;
-	margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0;
 }
 
 #botonaco {
-   border-top: 1px solid #fffbeb;
-   background: #c47200;
-   background: -webkit-gradient(linear, left top, left bottom, from(#ffd659), to(#c47200));
-   background: -webkit-linear-gradient(top, #ffd659, #c47200);
-   background: -moz-linear-gradient(top, #ffd659, #c47200);
-   background: -ms-linear-gradient(top, #ffd659, #c47200);
-   background: -o-linear-gradient(top, #ffd659, #c47200);
-   /*-webkit-border-radius: 5px;
-   -moz-border-radius: 5px;*/
-   border-radius: 5px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   color: #333;
-   font-size: 14px;
-   text-decoration: none;
-   vertical-align: middle;
-   text-align: center;
-   margin-top: 10px;
-   margin-left: 35px;
-   margin-bottom: 20px;
-   width: 200px;
-   height: 35px;
-   padding-top: 20px;
-   cursor: default;
-}
-
-#botonaco:hover {
-   border-top-color: #f27500;
-   background: #f27500;
-   color: #333;
-}
-
-#botonaco:active {
-   border-top-color: #d69d53;
-}
-
-#mlform {
-	margin-top: 3px;
-	padding-top: 10px;
-	text-align: center;
-    border-radius: 5px;
-	background: #a4d392;
-/*	background: #f80;
+    border-top: 1px solid #fffbeb;
+    background: #c47200;
     background: -webkit-gradient(linear, left top, left bottom, from(#ffd659), to(#c47200));
     background: -webkit-linear-gradient(top, #ffd659, #c47200);
     background: -moz-linear-gradient(top, #ffd659, #c47200);
     background: -ms-linear-gradient(top, #ffd659, #c47200);
     background: -o-linear-gradient(top, #ffd659, #c47200);
-*/}
+    /*-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;*/
+    border-radius: 5px;
+    /*-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;*/
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 35px;
+    padding-top: 20px;
+    cursor: default;
+}
+
+#botonaco:hover {
+    border-top-color: #f27500;
+    background: #f27500;
+    color: #333;
+}
+
+#botonaco:active { border-top-color: #d69d53; }
+
+#mlform {
+    margin-top: 3px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: #a4d392;
+    /*	background: #f80;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffd659), to(#c47200));
+    background: -webkit-linear-gradient(top, #ffd659, #c47200);
+    background: -moz-linear-gradient(top, #ffd659, #c47200);
+    background: -ms-linear-gradient(top, #ffd659, #c47200);
+    background: -o-linear-gradient(top, #ffd659, #c47200);
+     */
+}
 
 #mlform p {
-	font-size: 10px;
-	margin: 0;
-	padding: 0;
-	padding-bottom: 3px;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 3px;
 }
 
 #mlform input#mail { border: 1px solid #c192d3; }
@@ -335,32 +333,32 @@ h1 {
 
 #photostream h1, 
 #photostream a
-#photostream a:hover
-#photostream img {
+#photostream img
+#photostream a:hover {
     margin: 0;
     padding: 0;
 }
 
 #photostream {
-   width: 210px;
-   float: right;
-   margin-right: 10px;
+    width: 210px;
+    float: right;
+    margin-right: 10px;
 }
 
 #photostream h1 {
-	font-family: 'Lato', sans-serif;
-	font-weight: normal;
-	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
     border-bottom: 1px solid #ccc;
-	margin-bottom: 2px;
-	text-shadow: rgb(255, 255, 255) 0 1px 0;
-	color: #666;
+    margin-bottom: 2px;
+    text-shadow: rgb(255, 255, 255) 0 1px 0;
+    color: #666;
 }
 
 #photostream a,
 #photostream a:hover{
-	border: 0;
-	text-decoration: none;
+    border: 0;
+    text-decoration: none;
 }
 
 #photostream a:hover { background: transparent; }
