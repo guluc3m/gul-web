@@ -8,3 +8,4 @@ echo "title = \"\"
 
 body" > stories/$cat/$id
 
+git add stories/timeline stories/$cat/$id
