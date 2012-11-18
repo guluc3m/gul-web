@@ -25,7 +25,7 @@ fortunes:
 	cp fortunes/* html/fortunes
 
 clean: 
-	rm ${OUT}/*html
+	rm -f ${OUT}/*.html
 
 test:
 	ruby webserver.rb 
