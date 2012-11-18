@@ -4,7 +4,6 @@ body, h1 {
     padding: 0;
 }
 
-
 body {
     background: #f8f8f8;
     background-image: url(bg.png);
@@ -34,7 +33,7 @@ h1 {
 #nav {
     display: none;
     background: black;
-    color:white;
+    color: white;
     height: 28px;
     text-align: left;
     font-size: 10px;
@@ -166,6 +165,7 @@ h1 {
     min-height: 280px;
     margin-bottom: 10px;
     color: #333;
+    text-align: justify;
 }
 
 #mainstory .title {
@@ -246,7 +246,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-.intro p { color: #333; }
 
 .intro:first-child {
     margin-left: 10px;
@@ -265,6 +264,8 @@ h1 {
     padding-top: 10px;
     padding-left: 10px;
     margin: 0;
+    color: #333; 
+    text-align: justify;
 }
 
 #botonaco {
@@ -317,7 +318,7 @@ h1 {
     background: -o-linear-gradient(top, #ffd659, #c47200);
      */
 }
-
+º
 #mlform p {
     font-size: 11px;
     margin: 0;
