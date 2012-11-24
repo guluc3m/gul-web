@@ -89,8 +89,14 @@ h1 {
 	border: 1px solid #ccc; 
 	border-radius: 5px; */
 }
+.logobox2 {
+	text-align: right;
+	float: left;
+	width: 280px;
+	font-family: 'Lato', sans-serif;
+}
 
-.logobox a {
+.logobox a,.logobox2 a {
 	color: #444;
 	text-decoration: none;
 }
