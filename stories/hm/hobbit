@@ -1,0 +1,89 @@
+title = "DJ Strike / Late night freak extreme"
+
+<p>
+   Estrenamos programa en HolaMundo!
+</p>
+
+<div id="vendetta" style="background-repeat: no-repeat; background-image: url(img/hobbit/b.png); width:400; max-height:200; background-size: 100%; padding-top: 140px;">
+  <div id="ventext" style="font-size: 20px; background: rgba(0, 0, 0, 0.5); margin:0; padding:0;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+  </div>
+</div>
+
+<p>
+(Haz click en la viñeta para avanzar...)
+</p>
+
+<script  type="text/javascript">
+var script = [
+    ["b", "Ha llegado el día..."],
+    ["b", "Hoy se estrena mi peli..."],
+    ["b", "Ya no soy el secundario de Sherlock..."],
+    ["b", "Ahora soy un héroe yo solito..."],
+    ["b", "Y pasaré a la Historia del Cine..."],
+    ["b", "Ya puedo sentir el Oscar..."],
+    ["b", "Y un globo de oro..."],
+    ["b", "Ya no necesitaré más la certificación de Java..."],
+    ["g", "OLA KE ASE?"],
+    ["b", "J*d*r Gollum, casi me matas del susto!"],
+    ["b", "Que hoy es el estreno de mi peli. ¿No vas a venir?"],
+    ["g", "Pero es que hoy estrena programa Dj Strike en HolaMundo"],
+    ["g", "Y luego viene el late night."],
+    ["b", "¿Prefieres quedarte escuchando la radio a ir al cine?"],
+    ["g", "Si."],
+    ["b", "¿Cómo puede ser?"],
+    ["g", "Bueno..."],
+    ["g", "Es por Fer."],
+    ["g", "Es mi tesoro."],
+    ["b", "Bueno pero ¿luego irás a ver la peli?"],
+    ["g", "No sé, hace frío y llueve."],
+    ["b", "Pero si vives en una cueva húmeda y fría."],
+    ["g", "Tu no has visto mi cuarto de los juguetes..."],
+    ["g", "Ni mi sofá de vaca."],
+    ["b", "¡Te ordeno que vayas al cine a verme!"],
+    ["g", "El cine es muy caro, no compensa."],
+    ["g", "'Te invito al cine' es el nuevo 'tengo tierras'."],
+    ["b", "Pero si además a ti no te gusta la música dance."],
+    ["g", "Estoy explorando nuevos caminos..."],
+    ["b", "Ahora entiendo lo de Fer."],
+    ["g", "Ya."],
+    ["b", "La verdad es que es mono."],
+    ["g", "Ya."],
+    ["b", "Si."],
+    ["g", "Ya."],
+    ["b", "Bueno, es mi opinión."],
+    ["g", "Ya."],
+    ["b", "¿Y a qué hora es el programa?"],
+    ["g", "A partir de las 21"],
+    ["g", "Primero música, luego descanso, y luego el late night."],
+    ["g", "Con invitado."],
+    ["g", "Freak extremo."],
+    ["b", "Pues a lo mejor lo escucho."],
+    ["k", "VIERNES 14/DIC/2012 21:00 radio.gul.es/directo"],
+];
+
+var align = {
+    "b" : "left",
+    "g" : "right",
+    "k" : "center",
+}
+
+var colors = {
+    "b" : "#eef",
+    "g" : "#eee",
+    "g" : "#fff",
+}
+
+var slide = 0;
+
+function impetus() {
+  s = script[slide];
+  picture = s[0];
+
+  $('#vendetta').css("background-image", "url(/img/hobbit/" + s[0] + ".png)");
+  $('#ventext').text(s[1]).css("color", colors[picture[0]]).css("text-align", align[picture]);
+  slide = slide + 1;
+}
+
+$('#vendetta').click(impetus);
+impetus();
+</script>
