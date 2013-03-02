@@ -3,8 +3,6 @@
     <%= partial("head") %>
   </head>
   <body>
-    <%= partial("javascript") %>
-
     <div id="nav">
       <!--
       <a href="index.html">
@@ -18,8 +16,7 @@
       <% end %>
     </div>
 
-    <div id="announce">
-    </div>
+    <div id="announce"></div>
 
     <%= partial("menu") %>
 
@@ -33,7 +30,9 @@
 	        </div>
 	        <div id="mlform">
 	          <form method="POST" action="https://gul.uc3m.es/mailman/subscribe/gul">
-	            <input id="mail" class="inputlight" type="text" name="email" size="25" value="Direcci&oacute;n de email"/>
+                  <!--input id="mail" class="inputlight" type="text" name="email" size="25" value="Direcci&oacute;n de email"/>-->
+
+              <input id="mail" class="inputlight" type="text" name="email" size="25" placeholder="Dirección de e-mail"/>
 	            <input type="submit"/>
 	          </form>
 	          <p>
@@ -64,8 +63,8 @@
 
         <div class="story">
           <%= Twitter.for "holamundoradio" %>
-        </div>                        
-        
+        </div>
+
         <div class="story">
           <h1>Noticias anteriores</h1>
           <ul>
@@ -78,13 +77,10 @@
             <% end %>
           </ul>
         </div>
-        
       </div>
-      
     </div>
-
     <%= partial("fortunes") %>
-
     <%= partial("footer") %>
   </body>
+    <%= partial("javascript") %>
 </html>

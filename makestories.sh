@@ -1,4 +1,5 @@
 #!/bin/bash
+
 STORIES=
 CATEGORIES=
 RSS=rss.dat
@@ -10,8 +11,8 @@ echo "$LAST_UPDATED" > $LAST
 pushd stories > /dev/null
 for category in *
 do
-	if [ -d $category ] && [ "$category" != "." ] && [ "$category" != ".." ]
-	then
+	#if [ -d $category ] && [ "$category" != "." ] && [ "$category" != ".." ]
+	#then
 		CATEGORIES="$CATEGORIES $category"
 	    pushd $category > /dev/null
 		for story in *
@@ -21,8 +22,9 @@ do
 			fi
 		done
 		popd > /dev/null
-	fi
+	#fi
 done
+
 popd > /dev/null
 
 for category in $CATEGORIES

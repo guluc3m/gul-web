@@ -17,6 +17,11 @@ css.css: css.rb css.erb
 %.css: 
 	cp css/$@ ${OUT}
 
+#	WIP -> Compressing css.
+#
+#compress-css:
+#	yui-compress > .min.css
+
 stories:
 	bash makestories.sh
 
@@ -25,7 +30,7 @@ fortunes:
 	cp fortunes/* html/fortunes
 
 clean: 
-	rm ${OUT}/*html
+	rm -f ${OUT}/*.html
 
 test:
 	ruby webserver.rb 
