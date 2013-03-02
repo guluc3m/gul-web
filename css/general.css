@@ -3,7 +3,7 @@ body, h1 {
     margin: 0;
     padding: 0;
 }
-
+/**************/
 body {
     background: #f8f8f8;
     background-image: url(bg.png);
@@ -90,10 +90,16 @@ h1 {
     border: 1px solid #ccc; 
     border-radius: 5px; */
 }
+.logobox2 {
+	text-align: right;
+	float: left;
+	width: 280px;
+	font-family: 'Lato', sans-serif;
+}
 
-.logobox a {
-    color: #444;
-    text-decoration: none;
+.logobox a,.logobox2 a {
+	color: #444;
+	text-decoration: none;
 }
 
 .logobox a:hover {
@@ -318,7 +324,7 @@ h1 {
     background: -o-linear-gradient(top, #ffd659, #c47200);
      */
 }
-º
+
 #mlform p {
     font-size: 11px;
     margin: 0;
@@ -335,8 +341,8 @@ h1 {
 #mlform p a { color: #666; }
 
 #photostream h1, 
-#photostream a
-#photostream img
+#photostream a,
+#photostream img,
 #photostream a:hover {
     margin: 0;
     padding: 0;
@@ -366,4 +372,8 @@ h1 {
 
 #photostream a:hover { background: transparent; }
 
-#photostream img { border: 0; }
+#photostream img {
+	margin:0;
+	padding:0;
+	border:0;
+}

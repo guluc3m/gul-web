@@ -1,0 +1,47 @@
+title = "Juernes on tour / Late night freak extreme"
+
+<p>
+    Aquí os dejamos los enlaces a los programas de ayer:
+</p>
+<p>
+    <a href="http://jarama.gul.uc3m.es/dj-20121214.ogg">Juernes on tour #1</a><br />
+    <a href="http://jarama.gul.uc3m.es/latenight-20121214.ogg">Late night freak extreme 14-dic-2012</a><br />
+    <a href="http://jarama.gul.uc3m.es/maya.ogg">Unicornios y la abeja Maya</a><br />
+</p>
+
+<div id="vendetta" style="background-repeat: no-repeat; width:400; max-height:200; background-size: 100%; padding-top: 140px;">
+  <div id="ventext" style="font-size: 20px; background: rgba(0, 0, 0, 0.5); margin:0; padding:0;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+  </div>
+</div>
+
+<p>
+(Haz click en la viñeta para avanzar...)
+</p>
+
+<script  type="text/javascript">
+var script = [
+    ["g2", "Cada día me lo paso mejor."]
+];
+
+var align = {
+    "g2" : "center",
+}
+
+var colors = {
+    "g" : "#ddd",
+}
+
+var slide = 0;
+
+function impetus() {
+  s = script[slide];
+  picture = s[0];
+
+  $('#vendetta').css("background-image", "url(/img/hobbit/" + s[0] + ".png)");
+  $('#ventext').text(s[1]).css("color", colors[picture[0]]).css("text-align", align[picture]);
+  slide = slide + 1;
+}
+
+$('#vendetta').click(impetus);
+impetus();
+</script>

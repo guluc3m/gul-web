@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+  <title>GUL UC3M</title>
+  <atom:link href="http://gul.es/rss" rel="self" type="application/rss+xml"/>
+  <link>http://gul.es</link>
+  <description/>
+  <lastBuildDate>Mon, 19 Nov 2012 20:08:06 +0100</lastBuildDate>
+  <language>es</language>
+  <sy:updatePeriod>hourly</sy:updatePeriod>
+  <sy:updateFrequency>1</sy:updateFrequency>
+  <generator>http://gul.es</generator>
+  <image>
+    <url>http://gul.es/img/favicon.png</url>
+    <title>GUL UC3M</title>
+    <link>http://gul.es</link>
+  </image>
+  
+  <item>
+    <title>Holamundo 2.0 #28 / Irene Tonight #1</title>
+    <link>http://gul.es/hm/28</link>
+    <pubDate>Mon, 19 Nov 2012 17:13:19 +0100</pubDate>
+    <category>Holamundo radio</category>
+    <guid isPermaLink="true">http://gul.es/hm/28</guid>
+    <description>
+      <p style="text-align:center;font-size:150%;">
+  Una petición personal de los chicos de la radio
+</p>
+<p>
+  <strong>Necesitamos tu ayuda</strong>. Fer utiliza normalmente un micrófono de la wii que es una patata y necesitamos
+  comprar uno. Para evitar el ruido ambiente, que es bastante alto, empleamos micros dinámicos, que afortunadamente son más 
+  baratos que los de condensador, los que se usan en radios profesionales. 
+  Un micro suficientemente bueno sale por unos 50€, aunque por 30 o 40 ya podemos encontrar alguno majete. 
+</p>
+<p>
+  Si te apetece hacer un donativo, puedes usar el siguiente botón:
+</p>
+<p style="text-align:center">
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="text-align:center">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="GQNK2QPYNQL6Q">
+  <input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+  <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+  </form>
+</p>
+<p>
+  Como gesto de agradecimiento enviaremos a los donantes un tono para el móvil: nuestra particular interpretación de Knights Of Cydonia de Muse.
+</p>
+<p>
+  <a href="http://radio.gul.es/pub/irene-tonight-20121026.ogg">Audio de Irene Tonight #1</a> <br />
+  <a href="http://radio.gul.es/pub/holamundo-20121116.ogg">Audio de Holamundo #28</a>
+</p>
+
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>Jornadas Técnicas de Noviembre</title>
+    <link>http://gul.es/gul/7cb5741df004e9f16d3275075e8ec847</link>
+    <pubDate>Mon, 19 Nov 2012 17:13:19 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/7cb5741df004e9f16d3275075e8ec847</guid>
+    <description>
+      <p>
+Aprovecha la oportunidad que te brindamos: la semana del 5 al 9 de
+noviembre por la tarde son las tradicionales jornadas técnicas. Como cada
+año ofrecemos multitud de cursos de muchas cosas diferentes y para todos
+los gustos.
+</p>
+
+<p>
+No te lo pienses, elige los que más te gusten de
+<a href="http://cursos.gul.es/index.php/courses/calendar/20">http://cursos.gul.es/index.php/courses/calendar/20</a> y disfrútalos.
+</p>
+
+<p>
+Como siempre, la asistencia es libre y totalmente gratuita.
+</p>
+
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>HolaMundo 2.0 beta con colores pastel, bordes redondeados y arrojando sombras - #1</title>
+    <link>http://gul.es/hm/alcaparras-con-chocolate</link>
+    <pubDate>Mon, 19 Nov 2012 17:13:19 +0100</pubDate>
+    <category>Holamundo radio</category>
+    <guid isPermaLink="true">http://gul.es/hm/alcaparras-con-chocolate</guid>
+    <description>
+      <p>
+  <a href="http://radio.gul.es/pub/holamundo2.ogg">Audio del programa</a>
+</p>
+
+<p>
+Empezamos una nueva etapa en HolaMundo, produciendo nosotros mismos todo el programa, 
+íntegramente con software libre, y emitiendo desde el despacho del GUL. Tenemos
+nuevos juguetes y nos lo pasamos muy bien jugando con ellos. 
+</p>
+
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>Empezamos de nuevo</title>
+    <link>http://gul.es/hm/nueva-temporada</link>
+    <pubDate>Tue, 18 Sep 2012 22:38:40 +0200</pubDate>
+    <category>Holamundo radio</category>
+    <guid isPermaLink="true">http://gul.es/hm/nueva-temporada</guid>
+    <description>
+      <p>
+    Después de unas catastróficas pruebas de emisión, 
+    este <strong>viernes 21 de septiembre a las 20:00</strong> horas empezamos de 
+    nuevo a emitir, esta vez desde nuestro local, 
+    con nuevos colaboradores, con Roberto a la mesa de mezclas, y con un montón
+    de aparatitos nuevos y divertidos.
+</p>
+
+<p>
+    Estad atentos a la web o al twitter 
+    <a href="https://twitter.com/holamundoradio">@holamundoradio</a> 
+    donde publicaremos el
+    enlace al directo y tened el teléfono cerca porque os pediremos un poco de ayuda.
+</p>
+
+<div id="vendetta" style="background-repeat: no-repeat; background-image: url(img/hm-nueva-temporada/l1.png); width:400; max-height:200; background-size: 100%; padding-top: 140px;">
+  <div id="ventext" style="font-size: 20px; background: rgba(0, 0, 0, 0.5); margin:0; padding:0;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+  </div>
+</div>
+
+<p>
+(Haz click en la viñeta para avanzar...)
+</p>
+
+<script  type="text/javascript">
+var script = [
+    ["l1", "Este viernes van a emitir HolaMundo"],
+    ["n1", "¿El programa de radio del GUL?"],
+    ["l1", "Ese, el de Roberto y los otros"],
+    ["n1", "¿El de la sintonía ochentera tipo Alf?"],
+    ["l1", "Ermmm si, ese."],
+    ["n1", "No me lo pierdo, ¿a qué hora es?"],
+    ["l1", "Creo que a las ocho de la noche"],
+    ["f1", "(Menos mal, antes de cenar)"],
+    ["l1", "Pero creo que ahora durará más"],
+    ["n1", "¿Cuánto?"],
+    ["l1", "Las pruebas que hicieron duraron varias horas"],
+    ["n1", "¿Varias horas?"],
+    ["f1", "(¿VARIAS HORAS?)"],
+    ["n1", "Tendrán un guión nutrido"],
+    ["l1", "Creo que si"], 
+    ["l1", "Llevan días escribiéndolo entre todos"],
+    ["n1", "¿Y cómo lo hacen? ¿Por email?"],
+    ["l1", "Nah, con google docs"], 
+    ["n1", "¿Y por qué no usan vim y ssh?"],
+    ["l1", "Porque vim es de maricas"], 
+    ["l1", "¿Qué es eso de pulsar i para escribir?"], 
+    ["l1", "¿Y luego ESC para dejar de escribir?"], 
+    ["n1", "Porque vim funciona con modos"],
+    ["n1", "Pulsas i para entrar en modo insert"], 
+    ["n1", "Y para salir al modo comandos pulsas ESC"], 
+    ["f1", "(¿Entonces no vamos a cenar?)"],
+    ["n1", "Al principio, vim cuesta pero luego es fácil"], 
+    ["l1", "Pues yo no me apaño, ¿y para cortar y pegar qué?"], 
+    ["n1", "Pues entras en modo visual pulsando v"], 
+    ["l1", "O sea, ¿primero ESC y luego v?"], 
+    ["n1", "Eso es"], 
+    ["l1", "Pues menuda mierda."], 
+    ["n1", "Cuando solo tienes un SSH es lo mejor"], 
+    ["l1", "Ya, pero en casa no usas ssh, trabajas en local"], 
+    ["t1", "Yo uso eclipse"], 
+    ["t1", "Es muy bonito y tiene plugins"], 
+    ["l1", "Eso es más para programar"], 
+    ["n1", "Con vim también puedes programar"], 
+    ["n1", "Mucho mejor que con eclipse"], 
+    ["t1", "Ya pero vim es léxico y eclipse sintáctico"], 
+    ["n1", "¿Y eso qué significa?"], 
+    ["t1", "Que sabe usar palabras pero no sabe qué significan"], 
+    ["t1", "Así que no puedes hacer cosas como"],
+    ["t1", "refactorizaciones, árboles de llamadas,"],
+    ["t1", "o mostrar los campos y funciones de las clases"],
+    ["n1", "Si que puedes, yo lo hago."], 
+    ["t1", "No, solo lo hace con el código del que dispone"], 
+    ["t1", "No puede hacerlo con InputStream, por ejemplo."], 
+    ["t1", "Eclipse sabe lo que es un classpath, o un jar, "], 
+    ["t1", "y sabe mirar las clases y entiende lo que contienen"], 
+    ["t1", "Vim solo entiende letras, no entiende su significado"], 
+    ["f1", "(¿Y si hacemos el programa después de cenar?)"],
+    ["n1", "No me convences, seguiré usando vim"],
+    ["n1", "Es más ligero."], 
+    ["l1", "Total, que el viernes a las 20 nos conectamos a gul.es"], 
+    ["l1", "A ver si siguen o no con el consultorio sentimental"], 
+    ["n1", "Espero que no."], 
+    ["l1", "En la web aparecerá la URL del streaming"], 
+    ["l1", "Y también en el twitter de @holamundoradio"], 
+    ["l1", "Estad atentos"], 
+    ["t1", "Estoy ansiosa."],
+];
+
+var align = {
+    "n1" : "right",
+    "l1" : "left",
+    "f1" : "center",
+    "t1" : "center"
+}
+
+var colors = {
+    "t" : "#faf",
+    "l" : "#ffa",
+    "n" : "#aff",
+    "f" : "#faa"
+}
+
+var slide = 0;
+
+function impetus() {
+  s = script[slide];
+  picture = s[0];
+
+  $('#vendetta').css("background-image", "url(/img/hm-nueva-temporada/" + s[0] + ".png)");
+  $('#ventext').text(s[1]).css("color", colors[picture[0]]).css("text-align", align[picture]);
+  slide = slide + 1;
+}
+
+$('#vendetta').click(impetus);
+impetus();
+</script>
+
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>HolaMundo #25</title>
+    <link>http://gul.es/hm/25</link>
+    <pubDate>Fri, 20 Jul 2012 13:04:22 +0200</pubDate>
+    <category>Holamundo radio</category>
+    <guid isPermaLink="true">http://gul.es/hm/25</guid>
+    <description>
+      <p>
+  <a href="http://audio.urcm.net/archivo/mp3/20120622_holamundo_ECOLeganes.mp3">
+    <strong>Audio del programa</strong>
+  </a>
+</p>
+
+<p>
+  Este es el último programa de la temporada, esperamos volver en Septiembre con alguna sorpresa. Nos quedamos con la cita del mes:
+</p>
+<p>
+    <cite>
+        Pues ahora Tengo masa. Y ahora no. Y ahora soy una onda, ahora te jodes. <br /><br />
+        -- Los fotones
+    </cite>
+</p>
+
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>HolaMundo #24</title>
+    <link>http://gul.es/hm/24</link>
+    <pubDate>Tue, 29 May 2012 16:37:42 +0200</pubDate>
+    <category>Holamundo radio</category>
+    <guid isPermaLink="true">http://gul.es/hm/24</guid>
+    <description>
+      <p>
+  <a href="http://audio.urcm.net/archivo/mp3/20120525_holamundo_ECOLeganes.mp3">
+    <strong>Audio del programa</strong>
+  </a>
+</p>
+
+<p>
+  En esta ocasión nos visita Irene, quien está realizando un estudio sociológico sobre 
+  el comportamiento del gremio de los ingenieros, y que ha tenido la amabilidad de
+  venir al programa a contarnos sus experiencias y descubrimientos. Es una buena ocasión
+  para saber de primera mano si el estereotipo de <emph>frikis</emph> y antisociales 
+  es injusto o si nos lo hemos ganado a pulso.
+</p>
+<p>
+  <strong>NOTA:</strong>Cuando David habla de una sonda al final del programa, en realidad
+  se refiere a una vía. En las vías se emplea una pequeña válvula que, además de abrirse y 
+  cerrarse, elimina las burbujas de aire. Las sondas me temo que no tienen un mecanismo 
+  especialmente complejo :)
+</p>
+
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>HolaMundo #23</title>
+    <link>http://gul.es/hm/23</link>
+    <pubDate>Thu, 26 Apr 2012 18:23:01 +0200</pubDate>
+    <category>Holamundo radio</category>
+    <guid isPermaLink="true">http://gul.es/hm/23</guid>
+    <description>
+      <p>
+<a href="http://audio.urcm.net/archivo/mp3/20120420_holamundo_ECOLeganes.mp3">
+    <strong>Audio del programa</strong>
+</a>
+</p>
+
+<p>
+Hemos contratado a una becaria para que grabe el programa y suba el audio a un FTP. 
+Para evaluar sus competencias hemos grabado este programa 
+de prueba, y por eso hablamos de cosas insignificantes: Arduino, Schopenhauer o 
+la última reforma educativa.
+</p>
+
+
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>HolaMundo #22</title>
+    <link>http://gul.es/hm/3</link>
+    <pubDate>Mon, 19 Mar 2012 23:03:27 +0100</pubDate>
+    <category>Holamundo radio</category>
+    <guid isPermaLink="true">http://gul.es/hm/3</guid>
+    <description>
+      <p>
+<a href="http://audio.urcm.net/archivo/mp3/20120316_holamundo_ECOLeganes.mp3">
+    <strong>Audio del programa</strong>
+</a>
+</p>
+
+<p>
+En este programa nos acompaña Rocío Acuña para contarnos sus experiencias como 
+responsable de RRHH en temas de selección, formación y gestión de perfiles
+técnicos.  Si te interesa aprender sobre entrevistas, pruebas técnicas, CVs, etc. 
+te interesará la entrevista.
+</p>
+
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>HolaMundo #20 + Fiesta de software libre</title>
+    <link>http://gul.es/hm/2</link>
+    <pubDate>Mon, 23 Jan 2012 15:50:10 +0100</pubDate>
+    <category>Holamundo radio</category>
+    <guid isPermaLink="true">http://gul.es/hm/2</guid>
+    <description>
+      <p>
+<a href="http://audio.urcm.net/archivo/mp3/20120120_holamundo_ECOLeganes.mp3">
+    <strong>Audio del programa</strong>
+</a>
+</p>
+
+<p>
+Este es uno de los programas más interesantes que hemos tenido, ya que contamos
+con la compañía de <a href="http://www.eco.uc3m.es/~acabrales/">Antonio Cabrales</a>, 
+catedrático de Economía de la Universidad Carlos III de Madrid.  Si no eres 
+estudiante de economía en la UC3M y no conoces a Antonio, no deberías perderte
+esta oportunidad.  Te garantizamos que te quedarás con ganas de más.
+</p>
+
+<p>
+<a href="http://apuntatealafiesta.com">
+    <strong>Fiesta de software libre en Ártica</strong>
+</a>
+</p>
+
+<p>
+También os recordamos que el día 28 de enero de 2012 tendremos una 
+<a href="http://apuntatealafiesta.com">fiesta de software
+libre</a> en el <a href="http://www.jrotero.org/index.php/artica">colegio 
+ártica</a> de Madrid, donde podréis disfrutar de robots, talleres, charlas, 
+juegos en red... Quienes hacemos HolaMundo no nos lo vamos a perder, e 
+incluso daremos alguna charla. <a href="http://apuntatealafiesta.com">¡Apúntate!</a>
+</p>
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>Recordatorio: fiesta de instalación de software libre</title>
+    <link>http://gul.es/gul/2</link>
+    <pubDate>Mon, 16 Jan 2012 22:02:33 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/2</guid>
+    <description>
+      <p>
+Os recordamos que el día 28 de enero de 2012 tendremos una 
+<a href="http://apuntatealafiesta.com">fiesta de software
+libre</a> en el <a href="http://www.jrotero.org/index.php/artica">colegio 
+ártica</a> de Madrid.
+</p>
+
+
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>¡Feliz Navidad!</title>
+    <link>http://gul.es/gul/mc2k11</link>
+    <pubDate>Thu, 29 Dec 2011 23:21:25 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/mc2k11</guid>
+    <description>
+      <pre style="font-size:5px;">
+<span style="color:green;background-color:transparent;font-weight:bold;">
+                                           </span><span style="color:gray;background-color:transparent;font-weight:bold;">M
+                                           M;M:
+                                       @@M@M  MM@8M2
+                                       MB        aB
+                                         MZ     MW
+                                       </span><span style="color:green;background-color:transparent;font-weight:bold;"> Mi</span><span style="color:gray;background-color:transparent;font-weight:bold;">  MMM B</span><span style="color:green;background-color:transparent;font-weight:bold;"> M
+                                       M</span><span style="color:gray;background-color:transparent;font-weight:bold;"> MBW   7MM</span><span style="color:green;background-color:transparent;font-weight:bold;"> MX
+                                      M             M0
+                                    :M               8M
+                                   0M     </span><span style="color:red;background-color:transparent;font-weight:bold;">ZMZ</span><span style="color:green;background-color:transparent;font-weight:bold;">         iM
+                                  MZ     </span><span style="color:red;background-color:transparent;font-weight:bold;">M   M</span><span style="color:green;background-color:transparent;font-weight:bold;">          M
+                                 M.      </span><span style="color:red;background-color:transparent;font-weight:bold;">@MBMM</span><span style="color:green;background-color:transparent;font-weight:bold;">           M
+                               .M                         MZ
+                              8M                           XM
+                             M2          </span><span style="color:gray;background-color:transparent;font-weight:bold;">  M@      </span><span style="color:green;background-color:transparent;font-weight:bold;">          MM
+                           0M          </span><span style="color:gray;background-color:transparent;font-weight:bold;">    M:M   </span><span style="color:green;background-color:transparent;font-weight:bold;">              MM7
+                          Mr        </span><span style="color:gray;background-color:transparent;font-weight:bold;">   aM22   22MM    </span><span style="color:green;background-color:transparent;font-weight:bold;">           2MM
+                        M@          </span><span style="color:gray;background-color:transparent;font-weight:bold;">     M.    M    </span><span style="color:green;background-color:transparent;font-weight:bold;">                MM,
+                      MM   </span><span style="color:red;background-color:transparent;font-weight:bold;"> :W@r       </span><span style="color:gray;background-color:transparent;font-weight:bold;">  a;WMM7M        </span><span style="color:red;background-color:transparent;font-weight:bold;">   2MB</span><span style="color:green;background-color:transparent;font-weight:bold;">        aMW
+                    MM   </span><span style="color:red;background-color:transparent;font-weight:bold;"> MMZ  2MM       </span><span style="color:gray;background-color:transparent;font-weight:bold;"> MB    M:</span><span style="color:red;background-color:transparent;font-weight:bold;">       ;MMr  BMW</span><span style="color:green;background-color:transparent;font-weight:bold;">       ,MM
+                  MM    </span><span style="color:red;background-color:transparent;font-weight:bold;"> Mi       M                    ,M       iM</span><span style="color:green;background-color:transparent;font-weight:bold;">        ,MS
+                BM     </span><span style="color:red;background-color:transparent;font-weight:bold;">  M        M                    M         M </span><span style="color:green;background-color:transparent;font-weight:bold;">         aM
+              XM,      </span><span style="color:red;background-color:transparent;font-weight:bold;">  M7       M                    8S        M  </span><span style="color:green;background-color:transparent;font-weight:bold;">          M:
+             MZ          </span><span style="color:red;background-color:transparent;font-weight:bold;"> 0MW,.ZMM                      MM     WM   </span><span style="color:green;background-color:transparent;font-weight:bold;">           Mr
+            M               </span><span style="color:red;background-color:transparent;font-weight:bold;"> Z8.            @M0           MMMMM. </span><span style="color:green;background-color:transparent;font-weight:bold;">               Mr
+           8a                </span><span style="color:red;background-color:transparent;font-weight:bold;">              M   M      </span><span style="color:green;background-color:transparent;font-weight:bold;">                           M
+           M,        </span><span style="color:red;background-color:transparent;font-weight:bold;">                      M: 8M         </span><span style="color:green;background-color:transparent;font-weight:bold;">                        M
+            M                   </span><span style="color:red;background-color:transparent;font-weight:bold;">            ;W.       </span><span style="color:green;background-color:transparent;font-weight:bold;">                       MMMM
+            ZM0:rB@MMM                                                       M M
+               i  M  Ma      rMM@      .MMMM         .MMM        @MMr      ZM   M
+                @M     @W@MMMS   M    MM    MM      ;M   MMW;:XMMi  WMMMMMM </span><span style="color:red;background-color:transparent;font-weight:bold;"> S  </span><span style="color:green;background-color:transparent;font-weight:bold;"> Mr
+               M:   </span><span style="color:red;background-color:transparent;font-weight:bold;"> MMZa0r    </span><span style="color:green;background-color:transparent;font-weight:bold;">   MMMM        MMMMMM0       S2r           </span><span style="color:red;background-color:transparent;font-weight:bold;">  MBM </span><span style="color:green;background-color:transparent;font-weight:bold;">  aM
+             MM   </span><span style="color:red;background-color:transparent;font-weight:bold;">  M     2M  </span><span style="color:gray;background-color:transparent;font-weight:bold;">  M                                      </span><span style="color:red;background-color:transparent;font-weight:bold;">  :MM   rMM </span><span style="color:green;background-color:transparent;font-weight:bold;"> M
+            M7   </span><span style="color:red;background-color:transparent;font-weight:bold;">   M      M </span><span style="color:gray;background-color:transparent;font-weight:bold;">  MXM                         </span><span style="color:red;background-color:transparent;font-weight:bold;">  MMMMMMX       M  ,i,  </span><span style="color:green;background-color:transparent;font-weight:bold;">  M
+           M      </span><span style="color:red;background-color:transparent;font-weight:bold;">   MMX2MM</span><span style="color:gray;background-color:transparent;font-weight:bold;"> MM8B  MWMM,                   </span><span style="color:red;background-color:transparent;font-weight:bold;">  M      @8      M@B;MM </span><span style="color:green;background-color:transparent;font-weight:bold;">    M
+         .M          </span><span style="color:red;background-color:transparent;font-weight:bold;">  ,.   </span><span style="color:gray;background-color:transparent;font-weight:bold;"> 8@    ,W                   </span><span style="color:red;background-color:transparent;font-weight:bold;">   i8       M                 </span><span style="color:green;background-color:transparent;font-weight:bold;">;M
+         M                   </span><span style="color:gray;background-color:transparent;font-weight:bold;"> M MMWBi                    </span><span style="color:red;background-color:transparent;font-weight:bold;">   M      MZ                 </span><span style="color:green;background-color:transparent;font-weight:bold;"> M
+        ;X                  </span><span style="color:gray;background-color:transparent;font-weight:bold;"> .M0   WM  </span><span style="color:red;background-color:transparent;font-weight:bold;"> 22B                  MMMMMMr                </span><span style="color:green;background-color:transparent;font-weight:bold;">  @
+        .M                             </span><span style="color:red;background-color:transparent;font-weight:bold;"> M M          </span><span style="color:gray;background-color:transparent;font-weight:bold;"> MM          </span><span style="color:green;background-color:transparent;font-weight:bold;">            BMM8    M
+         MM         7r                </span><span style="color:red;background-color:transparent;font-weight:bold;">   i       </span><span style="color:gray;background-color:transparent;font-weight:bold;">  MMa  2aMB      </span><span style="color:green;background-color:transparent;font-weight:bold;">          MM    BMM2 MM
+          .MMi  ZMMWXXMMM                          </span><span style="color:gray;background-color:transparent;font-weight:bold;">  M   M          </span><span style="color:green;background-color:transparent;font-weight:bold;">       M             M
+              MM         M0               ,XX      </span><span style="color:gray;background-color:transparent;font-weight:bold;"> ,MMMMM. </span><span style="color:green;background-color:transparent;font-weight:bold;">rMMMMM:      BM               M,
+            2M            :MB          MMMZ;;BM0           aM     MMMWMMM:         </span><span style="color:red;background-color:transparent;font-weight:bold;">  .@B  </span><span style="color:green;background-color:transparent;font-weight:bold;"> M2
+           M;                MM      MM        ,MMi      .M8                       </span><span style="color:red;background-color:transparent;font-weight:bold;">  M  M  </span><span style="color:green;background-color:transparent;font-weight:bold;"> WM
+         MM                    MMMMMM </span><span style="color:red;background-color:transparent;font-weight:bold;">  Zr      </span><span style="color:green;background-color:transparent;font-weight:bold;">  8MMMMMMB                         </span><span style="color:red;background-color:transparent;font-weight:bold;">  MMM2   </span><span style="color:green;background-color:transparent;font-weight:bold;"> 7M
+        M.    </span><span style="color:red;background-color:transparent;font-weight:bold;"> ZMMMMMM,               BM .M                                 </span><span style="color:gray;background-color:transparent;font-weight:bold;">   MM.           </span><span style="color:green;background-color:transparent;font-weight:bold;">  M
+      2M     </span><span style="color:red;background-color:transparent;font-weight:bold;"> MZ      Mr              0M iM                              </span><span style="color:gray;background-color:transparent;font-weight:bold;">  ,B8Ma MMBM@       </span><span style="color:green;background-color:transparent;font-weight:bold;">  iM
+     MZ      </span><span style="color:red;background-color:transparent;font-weight:bold;"> M        M                2.                         @MM8    </span><span style="color:gray;background-color:transparent;font-weight:bold;"> MS     ;M         </span><span style="color:green;background-color:transparent;font-weight:bold;">  M
+    M.       </span><span style="color:red;background-color:transparent;font-weight:bold;"> M       aM      </span><span style="color:gray;background-color:transparent;font-weight:bold;">   MM                              </span><span style="color:red;background-color:transparent;font-weight:bold;"> M    M   </span><span style="color:gray;background-color:transparent;font-weight:bold;">  ,@ 7. M          </span><span style="color:green;background-color:transparent;font-weight:bold;">  M
+    M      </span><span style="color:red;background-color:transparent;font-weight:bold;">    MMX  8MW        </span><span style="color:gray;background-color:transparent;font-weight:bold;"> 2M MX;i,                         </span><span style="color:red;background-color:transparent;font-weight:bold;"> M    M    </span><span style="color:gray;background-color:transparent;font-weight:bold;"> MMMX00M.        </span><span style="color:green;background-color:transparent;font-weight:bold;">   M
+   M7           </span><span style="color:red;background-color:transparent;font-weight:bold;"> iM@.      </span><span style="color:gray;background-color:transparent;font-weight:bold;">  aMZ      MB                         </span><span style="color:red;background-color:transparent;font-weight:bold;"> XMW@M.  </span><span style="color:gray;background-color:transparent;font-weight:bold;">   i                </span><span style="color:green;background-color:transparent;font-weight:bold;">  M
+   MS                     </span><span style="color:gray;background-color:transparent;font-weight:bold;">     BS    M                  a                                   </span><span style="color:green;background-color:transparent;font-weight:bold;">    MM
+    M                      </span><span style="color:gray;background-color:transparent;font-weight:bold;">    WaMMMWM                 MBM                      </span><span style="color:green;background-color:transparent;font-weight:bold;">  MMMMMMMM    .M WS
+   WMMMMZWMMMMMMMMMMMM       </span><span style="color:gray;background-color:transparent;font-weight:bold;">  M7    Z,              M@:  XMM                </span><span style="color:green;background-color:transparent;font-weight:bold;">    Mi       MMMMW   MM
+  M     ,             MM                 ;8i       </span><span style="color:gray;background-color:transparent;font-weight:bold;">   M  , 8     </span><span style="color:green;background-color:transparent;font-weight:bold;">  7MMMX        M                  :@
+ M             </span><span style="color:red;background-color:transparent;font-weight:bold;"> MMMM   </span><span style="color:green;background-color:transparent;font-weight:bold;"> MM            .MMa,ZMM      </span><span style="color:gray;background-color:transparent;font-weight:bold;">  MMB7WM  </span><span style="color:green;background-color:transparent;font-weight:bold;">  7MMS   XMM     M </span><span style="color:gray;background-color:transparent;font-weight:bold;">  MMW             </span><span style="color:green;background-color:transparent;font-weight:bold;"> M
+B             </span><span style="color:red;background-color:transparent;font-weight:bold;"> MZ  M    </span><span style="color:green;background-color:transparent;font-weight:bold;">  MMM       ZMB       MMW             M2         WMMM@ </span><span style="color:gray;background-color:transparent;font-weight:bold;"> M2X rZMM</span><span style="color:green;background-color:transparent;font-weight:bold;">           M
+M              </span><span style="color:red;background-color:transparent;font-weight:bold;"> ZMMi      </span><span style="color:green;background-color:transparent;font-weight:bold;">   MMMMMMM;           :MMM8      2MM                  </span><span style="color:gray;background-color:transparent;font-weight:bold;"> M   iX</span><span style="color:green;background-color:transparent;font-weight:bold;">           M
+M                                                   ,MMMMMMr                   </span><span style="color:gray;background-color:transparent;font-weight:bold;">  MWMMMM</span><span style="color:green;background-color:transparent;font-weight:bold;">   MMMMM@@M
+ MMMZr:;2MMMMMMMM         </span><span style="color:gray;background-color:transparent;font-weight:bold;"> XM                   </span><span style="color:red;background-color:transparent;font-weight:bold;"> M@                             </span><span style="color:gray;background-color:transparent;font-weight:bold;"> i</span><span style="color:green;background-color:transparent;font-weight:bold;">       M
+     72S.        MM    </span><span style="color:gray;background-color:transparent;font-weight:bold;"> .00M MWMM              </span><span style="color:red;background-color:transparent;font-weight:bold;"> M  M                     </span><span style="color:green;background-color:transparent;font-weight:bold;"> 0MM0         ZM
+                   MZ   </span><span style="color:gray;background-color:transparent;font-weight:bold;"> MX    M         .8W@0i</span><span style="color:red;background-color:transparent;font-weight:bold;"> .WMr                  </span><span style="color:green;background-color:transparent;font-weight:bold;"> 2M@    WMM0Z0MMM:
+                    XMr  </span><span style="color:gray;background-color:transparent;font-weight:bold;"> M:MMMi   </span><span style="color:green;background-color:transparent;font-weight:bold;">   MMMB.   8MW8                   MMX          :
+                      0MM</span><span style="color:gray;background-color:transparent;font-weight:bold;"> M    8  </span><span style="color:green;background-color:transparent;font-weight:bold;"> SMM            MM              ;MM
+                         8MMMMWMMMZM                MM@:       0MMX M
+                                 </span><span style="color:olive;background-color:transparent;font-weight:bold;"> M                 </span><span style="color:green;background-color:transparent;font-weight:bold;">   aWM0BMMS  </span><span style="color:olive;background-color:transparent;font-weight:bold;">    M
+                                 M                        M  M  M     M
+                                M                         M  M  M     M
+                                @                          M M  M.     @
+                            ;MMMM                          M M;        MZMa
+                          MMS   M                          M S,       8X  iMM
+                         82      MM                        M        MM@      M
+                         0Ma       MMMW7                   , rBMMMM8       ZMM
+                         B  @MMM0.      8WBBW@@MMMMMMMMMMWZ80         2MMMM  M
+                         W8      aWMMMM00BaX;:           .i7ZMMMBMMBM;:      M
+                          MM2               .iX2Z88888ZaX;.      M  M     iMM
+                            iMMM@Br                              M  M;@MMMZ
+                                  iZBB08a8BBB088Za222aZZ80BWW0a8XW22.
+
+</span><span style="color:gray;background-color:transparent;font-weight:bold;"> _____ _____ _     ___ _____  _   _    ___     _____ ____    _    ____  
+|  ___| ____| |   |_ _|__  / | \ | |  / \ \   / /_ _|  _ \  / \  |  _ \ 
+| |_  |  _| | |    | |  / /  |  \| | / _ \ \ / / | || | | |/ _ \ | | | |
+|  _| | |___| |___ | | / /_  | |\  |/ ___ \ V /  | || |_| / ___ \| |_| |
+|_|   |_____|_____|___/____| |_| \_/_/   \_\_/  |___|____/_/   \_\____/ 
+                                                                        
+  ____ _   _ _     _____ ____   ___  ____  _ _ _ 
+ / ___| | | | |   | ____|  _ \ / _ \/ ___|| | | |
+| |  _| | | | |   |  _| | |_) | | | \___ \| | | |
+| |_| | |_| | |___| |___|  _ &lt;| |_| /___) |_|_|_|
+ \____|\___/|_____|_____|_| \_\___/|____/(_|_|_)
+</span>
+</pre>
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>Cena gulera</title>
+    <link>http://gul.es/gul/68bd9e03fe39627c8258f66d3e4bd998</link>
+    <pubDate>Sun, 18 Dec 2011 04:06:22 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/68bd9e03fe39627c8258f66d3e4bd998</guid>
+    <description>
+      <p>
+Una noche muy divertida hablando un poco de todo y cenando muy bien
+¿verdad, Fer?
+</p><p>
+Los que os lo habéis perdido no os preocupéis volveremos a quedar otro día.
+</p>
+
+      
+        <a href="/img/68bd9e03fe39627c8258f66d3e4bd998/IMAG0216.jpg">
+          <img src="/img/68bd9e03fe39627c8258f66d3e4bd998/thumb_IMAG0216.png"/>
+        </a>
+      
+        <a href="/img/68bd9e03fe39627c8258f66d3e4bd998/IMAG0214.jpg">
+          <img src="/img/68bd9e03fe39627c8258f66d3e4bd998/thumb_IMAG0214.png"/>
+        </a>
+      
+        <a href="/img/68bd9e03fe39627c8258f66d3e4bd998/IMAG0213.jpg">
+          <img src="/img/68bd9e03fe39627c8258f66d3e4bd998/thumb_IMAG0213.png"/>
+        </a>
+      
+        <a href="/img/68bd9e03fe39627c8258f66d3e4bd998/2011-12-18_01-20-35_HDR.jpg">
+          <img src="/img/68bd9e03fe39627c8258f66d3e4bd998/thumb_2011-12-18_01-20-35_HDR.png"/>
+        </a>
+      
+        <a href="/img/68bd9e03fe39627c8258f66d3e4bd998/IMAG0212.jpg">
+          <img src="/img/68bd9e03fe39627c8258f66d3e4bd998/thumb_IMAG0212.png"/>
+        </a>
+      
+        <a href="/img/68bd9e03fe39627c8258f66d3e4bd998/2011-12-17_22-09-11_HDR.jpg">
+          <img src="/img/68bd9e03fe39627c8258f66d3e4bd998/thumb_2011-12-17_22-09-11_HDR.png"/>
+        </a>
+      
+        <a href="/img/68bd9e03fe39627c8258f66d3e4bd998/IMAG0209.jpg">
+          <img src="/img/68bd9e03fe39627c8258f66d3e4bd998/thumb_IMAG0209.png"/>
+        </a>
+      
+        <a href="/img/68bd9e03fe39627c8258f66d3e4bd998/IMAG0208.jpg">
+          <img src="/img/68bd9e03fe39627c8258f66d3e4bd998/thumb_IMAG0208.png"/>
+        </a>
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>Cena de navidad 2011</title>
+    <link>http://gul.es/gul/19</link>
+    <pubDate>Sat, 17 Dec 2011 12:32:02 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/19</guid>
+    <description>
+      Recordad, tenemos cena navideña en el GUL:
+<ul>
+<li>Fecha: 17-dic-2011 </li>
+<li>Hora: 20:00 GMT+1 </li>
+<li>Lugar: Rotonda del edificio Sabatini, 40.331824,-3.767731 </li>
+</ul>
+
+<div id="vendetta" style="background-repeat: no-repeat; background-image: url(img/gul19/v1.png); width:400; max-height:200; background-size: 100%; padding-top: 180px;">
+  <div id="ventext" style="font-size: 20px; background: rgba(0, 0, 0, 0.5); margin:0; padding:0;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+  </div>
+</div>
+
+<p>
+(Haz click en la viñeta para avanzar...)
+</p>
+
+<script  type="text/javascript">
+var script = [
+    ["v1", "¿Vendrás a la fiesta esta noche?"], 
+    ["b",  "No puedo, tengo planes."], 
+    ["v1", "¿Justo hoy?"], 
+    ["b",  "Fíjate qué mala suerte."], 
+    ["v1", "¿Y no puedes ir otro día?"], 
+    ["b",  "De verdad que he quedado."], 
+    ["v1", "¿Tienes una cita con el plugin de flash quízá?"], 
+    ["b",  "No me funciona."], 
+    ["e1", "¿Y por qué?"], 
+    ["b",  "Tengo Red Hat."], 
+    ["e1", "¿Y por qué has instalado Red Hat?"], 
+    ["b",  "Es que es la más usada."], 
+    ["e1", "¿Y eso qué importa?"], 
+    ["b",  "Hay que conocer el entorno empresarial."], 
+    ["v1", "No es excusa."], 
+    ["e2", "Hombre, algo de razón tiene."], 
+    ["v2", "¿En qué?"], 
+    ["e2", "En que no está mal aprender algo de eso."], 
+    ["v2", "¿También usas Red Hat?"], 
+    ["e2", "Mandriva."], 
+    ["v2", "No me jodas."], 
+    ["e2", "No es tan mala..."], 
+    ["b",  "Es un dolor."], 
+    ["e1", "¡Al menos tengo flash!"], 
+    ["v1", "Bueno, ¿vais a dejar de hacer el friki..."], 
+    ["v1", "... y a venir a la cena?"], 
+    ["b",  "Bueno, vale, iré."], 
+    ["e2", "Yo he quedado."], 
+    ["v2", "No fastidies."], 
+    ["e2", "Me voy a una maratón..."], 
+    ["e2", "...de Sexo En Nueva York."], 
+    ["b",  "Vaya basura de plan."], 
+    ["e1", "¡Me gusta esa serie!"],
+    ["e1", "¡Trata sobre sentimientos!"], 
+    ["e1", "¡Y luego veré a Punset!"], 
+    ["e1", "¡Porque me gusta la divulgación!"], 
+    ["v2", "En HolaMundo también hacen divulgación."], 
+    ["e2", "Espera, ¿van a ir los de HolaMundo a cenar?"], 
+    ["v2", "Evidentemente."], 
+    ["e2", "¿Va a ir Roberto?"], 
+    ["v2", "Si."], 
+    ["c",  "Me apunto."], 
+]; 
+
+var align = {
+    "v1" : "right", 
+    "v2" : "right", 
+    "b" : "left", 
+    "e1" : "center", 
+    "e2" : "left", 
+    "c" : "center"
+}
+
+var colors = {
+    "v" : "#fff", 
+    "b" : "#0af", 
+    "e" : "#f8f",
+    "c" : "#ddf"
+}
+
+var slide = 0;
+
+function proclaim(backgorund, text) {
+  $('ventext').val('text')
+}
+
+function impetus() {
+  s = script[slide];
+  picture = s[0];
+ 
+  $('#vendetta').css("background-image", "url(/img/gul19/" + s[0] + ".png)");
+  $('#ventext').text(s[1]).css("color", colors[picture[0]]).css("text-align", align[picture]);
+  slide = slide + 1;
+}
+
+$('#vendetta').click(impetus);
+impetus();
+</script>
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>El GUL está en contínua mejora</title>
+    <link>http://gul.es/gul/3d74aa59513837e7f75b9a00b2fa4bd1</link>
+    <pubDate>Sun, 11 Dec 2011 02:27:16 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/3d74aa59513837e7f75b9a00b2fa4bd1</guid>
+    <description>
+      <p>
+¿Sabes que esta nueva web te puedes registrar en nuestra lista de
+correo de manera muy sencilla?
+</p><p>
+Pulsa el botón y verás.
+</p><p>
+¿No sabes lo que es una lista de correo o quieres más información?
+Escríbenos a info @ gul.uc3m.es y te resolveremos todas tus dudas.
+</p>
+
+      
+        <a href="/img/3d74aa59513837e7f75b9a00b2fa4bd1/IMAG0207.jpg">
+          <img src="/img/3d74aa59513837e7f75b9a00b2fa4bd1/thumb_IMAG0207.png"/>
+        </a>
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>Hoy toca...</title>
+    <link>http://gul.es/gul/af4f6c0437d85490e6a67dba91bd524b</link>
+    <pubDate>Sun, 11 Dec 2011 02:27:16 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/af4f6c0437d85490e6a67dba91bd524b</guid>
+    <description>
+      <p>
+Reuni&oacute;n!
+</p>
+
+      
+        <a href="/img/af4f6c0437d85490e6a67dba91bd524b/IMG_20111209_201604.jpg">
+          <img src="/img/af4f6c0437d85490e6a67dba91bd524b/thumb_IMG_20111209_201604.png"/>
+        </a>
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>El primer nodo de la nube del Gul</title>
+    <link>http://gul.es/gul/67181790e2e11a3d754252a4a1d61b14</link>
+    <pubDate>Sun, 11 Dec 2011 02:27:16 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/67181790e2e11a3d754252a4a1d61b14</guid>
+    <description>
+      <p>
+En el Gul queremos montar una nube. Por fin hemos recibido el primer nodo:
+os presentamos a gulmulonimbus-1.gul.es :)
+</p>
+
+      
+        <a href="/img/67181790e2e11a3d754252a4a1d61b14/IMG_20111208_202755.jpg">
+          <img src="/img/67181790e2e11a3d754252a4a1d61b14/thumb_IMG_20111208_202755.jpg"/>
+        </a>
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>Haciendo scripts</title>
+    <link>http://gul.es/gul/daf4023c1071753691f975a2e41da1a6</link>
+    <pubDate>Sun, 11 Dec 2011 02:27:16 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/daf4023c1071753691f975a2e41da1a6</guid>
+    <description>
+      <p>
+Tarde de scripts...
+
+Como mola :)
+</p>
+
+      
+        <a href="/img/daf4023c1071753691f975a2e41da1a6/IMG_20111208_174559.jpg">
+          <img src="/img/daf4023c1071753691f975a2e41da1a6/thumb_IMG_20111208_174559.jpg"/>
+        </a>
+      
+        <a href="/img/daf4023c1071753691f975a2e41da1a6/IMG_20111208_174552.jpg">
+          <img src="/img/daf4023c1071753691f975a2e41da1a6/thumb_IMG_20111208_174552.jpg"/>
+        </a>
+      
+        <a href="/img/daf4023c1071753691f975a2e41da1a6/IMG_20111208_174535.jpg">
+          <img src="/img/daf4023c1071753691f975a2e41da1a6/thumb_IMG_20111208_174535.png"/>
+        </a>
+      
+        <a href="/img/daf4023c1071753691f975a2e41da1a6/IMG_20111208_174524.jpg">
+          <img src="/img/daf4023c1071753691f975a2e41da1a6/thumb_IMG_20111208_174524.jpg"/>
+        </a>
+      
+    </description>
+  </item>
+  
+  <item>
+    <title>Fiesta de instalación de software libre</title>
+    <link>http://gul.es/gul/1</link>
+    <pubDate>Wed, 7 Dec 2011 19:01:56 +0100</pubDate>
+    <category>Sobre el GUL</category>
+    <guid isPermaLink="true">http://gul.es/gul/1</guid>
+    <description>
+      <p>
+<a href="http://www.jrotero.org">La cooperativa de enseñanza José Ramón Otero</a>
+está organizando unas jornadas sobre software libre para el día 28 de enero de 2012. 
+En ella los alumnos de FP mostrarán sus proyectos realizados con software libre: música, 
+vídeo, retoque fotográfico, etc. También habrá sala de juegos para los más pequeños
+y charlas (técnicas y no-tan-técnicas) para los padres y los alumnos. 
+</p>
+
+<p>
+Varias asociaciones y empresas nos hemos apuntado a la fiesta. Aunque estamos en 
+plena organización, hemos confirmado estas charlas:
+
+<ul>
+  <li>Jesús hablará de Mercurial, un software que permite gestionar diferentes
+      versiones y ramas de trabajo de documentos de texto, código fuente, etc.</li>
+  <li>Roberto comentará las alternativas libres a los programas privativos más comunes.</li>
+  <li>David dará una charla titulada <emph>Mitos, realidades y miedos de Internet</emph>.</li>
+</ul>
+</p>
+
+<p>
+Para más información sobre el evento, visita <a href="https://apuntatealafiesta.com">apuntatealafiesta.com</a>
+</p>
+
+      
+    </description>
+  </item>
+  
+  </channel>
+</rss>
