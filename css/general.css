@@ -4,6 +4,7 @@ body, h1 {
     padding: 0;
 }
 /**************/
+
 body {
     background: #f8f8f8;
     background-image: url(bg.png);
@@ -97,7 +98,8 @@ h1 {
 	font-family: 'Lato', sans-serif;
 }
 
-.logobox a,.logobox2 a {
+.logobox a,
+.logobox2 a {
 	color: #444;
 	text-decoration: none;
 }
@@ -177,8 +179,7 @@ h1 {
 #mainstory .title {
     font-size: 18px;
     padding-left: 20px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px 5px 0 0;
     padding: 10px;
     background: rgb(90, 114, 125);
     /*	background-image: -webkit-linear-gradient(top, rgb(124, 156, 172), rgb(90, 114, 125));
@@ -192,7 +193,7 @@ h1 {
     padding-right: 20px;
     padding-bottom: 20px;
     */
-    padding: auto 20px 20px 20px;
+    padding: 5px 15px;
     overflow: auto;
     min-height: 250px;
     max-height: 550px;
@@ -201,6 +202,7 @@ h1 {
 #mainstory .date {
     color: #aaa;
     font-size: 10px;
+    padding: 5px 15px 0 0;
     text-align: right;
 }
 
@@ -230,8 +232,9 @@ h1 {
 
 #footer {
     margin-top: 100px;
-    padding-top: 20px;
+   /* padding-top: 20px;
     padding-bottom: 20px;
+   */
     color: #888;
     text-align: center;
     clear: both;
@@ -340,6 +343,12 @@ h1 {
 
 #mlform p a { color: #666; }
 
+#photostream {
+    width: 210px;
+    float: right;
+    margin-right: 10px;
+}
+
 #photostream h1, 
 #photostream a,
 #photostream img,
@@ -348,11 +357,6 @@ h1 {
     padding: 0;
 }
 
-#photostream {
-    width: 210px;
-    float: right;
-    margin-right: 10px;
-}
 
 #photostream h1 {
     font-family: 'Lato', sans-serif;
