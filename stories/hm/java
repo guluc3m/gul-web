@@ -1,0 +1,128 @@
+title = "Se acerca una nueva era"
+
+<p>
+    Este viernes...
+</p>
+
+<div id="vendetta" style="background-repeat: no-repeat; background-image: url(img/java/b.png); width:600; max-height:200; background-size: 100%; padding-top: 290px;">
+  <div id="ventext" style="font-size: 20px; background: rgba(0, 0, 0, 0.5); margin:0; padding:0;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+  </div>
+</div>
+
+<p>
+(Haz click en la viñeta para avanzar...)
+</p>
+
+<script  type="text/javascript">
+var script = [
+    ["b2", "Este viernes dará comienzo una nueva era"],
+    ["b2", "Desplegaremos el Troyano Madero y todo empezará de nuevo"],
+    ["b2", "Haremos de Gotham una ciudad libre"],
+    ["b2", "Acabaremos con la peor de las enfermedades"],
+    ["b2", "La más temible y cruel"],
+    ["t", "¿Java?"],
+    ["b", "¿Perdona?"],
+    ["t", "Que si te refieres a java"], 
+    ["b", "¿Qué?"],
+    ["t", "Cuando dices que acabarás con la peor de las enfermedades"], 
+    ["t", "que si te refieres a java"],
+    ["b", "Mmm no, me refería a... ¿qué pasa con java?"],
+    ["t", "Que es una mierda"],
+    ["j", "Ya estamos"],
+    ["b", "Ah, bueno, pues no sé."],
+    ["t", "Da igual. Perdona. Sigue."],
+    ["b2", "Vamos a liberar a Gotham..."],
+    ["b2", "...de la peor de... "],
+    ["b", "Vale, espera, ¿qué pasa con java?"],
+    ["t", "Que es un queso de Gruyere que solo tuvo éxito por el marketing."],
+    ["b", "¿Por qué dices eso?"],
+    ["t", "Porque se diseñó para lavadoras y ahora se usa para todo."],
+    ["j", "Con dos pelotas."],
+    ["b", "Java es un lenguaje burocrático, que es algo muy bueno para empotrados,"],
+    ["b", "y resulta que también lo es para el entorno empresarial"],
+    ["j", "Chicos, C también se usa para empotrados y servidores."],
+    ["t", "Ya, pero por ejemplo java se usa para cosas para las que no está diseñado"],
+    ["t", "como tiempo real o seguridad."],
+    ["b", "Tiempo real significa que se cumplen requisitos temporales"],
+    ["b", "Que tal operación no va a durar más de tanto tiempo."],
+    ["b", "La JVM ejecuta bytecodes, y no hay heurísticas."],
+    ["b", "No veo tu argumento"],
+    ["j", "¿Qué argumento?"],
+    ["t", "Es por el recolector de basura. De vez en cuando salta y te jode."],
+    ["b", "A ver, Java es una especificación, y hay una implementación de referencia."],
+    ["b", "Una JVM tiempo real tendrá una implementación del GC que te garantice"],
+    ["b", "un comportamiento previsible. Quizá ni siquiera tenga GC."],
+    ["t", "Ya, pero ¿y la seguridad?"],
+    ["b", "Pero si funciona en una máquina virtual"],
+    ["t", "Ya, pero salen agujeros de seguridad de vez en cuando."],
+    ["b", "¿Y tardan mucho en solucionarlos?"],
+    ["t", "A veces si, por ejemplo en mac."],
+    ["b", "Vaya. Ojalá fuera software libre, se solucionarían las cosas más rápido."],
+    ["t", "Bueno, la implementación de referencia de Java 7 es GPL."],
+    ["b", "Pero si es de Oracle"],
+    ["t", "Si, pero Oracle ya sabes que son muy especiales."],
+    ["b", "La verdad es que si. Fíjate en Iron Man 3."],
+    ["t", "Y qué me dices de lo lento que es."],
+    ["b", "¿Iron Man?"],
+    ["t", "No, java."],
+    ["b", "Hombre, eso era hace quince años."],
+    ["t", "Pero yo lo digo por si cuela."],
+    ["t", "Y qué me dices de lo de multiplataforma."],
+    ["t", "Menuda mentira más gorda."],
+    ["b", "¿No lo es? Pensaba que si"],
+    ["t", "Los bytecodes son dependientes de la plataforma"],
+    ["j", "Qué coño dices"],
+    ["t", "Es el gran problema de java hoy en día"],
+    ["t", "Y luego tu haces new File(\"c:\\hola.txt\") y en linux no funciona"],
+    ["j", "Vale, estás de broma."],
+    ["t", "Y además luego está maven, que es un infierno"],
+    ["b", "Si, es una caca, pero maven no es parte de java, si no lo quieres usar no lo uses"],
+    ["t", "Y Eclipse, que es horrible de lento"],
+    ["b", "Pues usa vim, joder."],
+    ["t", "Yo es que soy más de emacs."],
+    ["b", "Te mato como empieces con eso."],
+    ["t", "Y el classpath, nunca funciona bien"],
+    ["b", "Pero si el classpath no tiene ciencia."],
+    ["t", "Pufff y mil cosas más. Java es una mierda. Mejor python."],
+    ["j", "Si, javascript"],
+    ["b", "Bueno, que este viernes desplegaremos el Troyano Madero en directo"],
+    ["b", "Y si Fer me tira de la lengua, quizá hablemos del hilo del GUL sobre Java."],
+    ["t", "Lo que pasa es que eres un java fanboy"],
+    ["t", "y no quieres ver la realidad."],
+    ["k", "VIERNES 21/JUN/2013 20:00 radio.gul.es/directo"],
+    ["k", ""],
+    ["k", ""],
+    ["k", ""],
+    ["k", ""],
+    ["k", "Nunca confiéis en Oracle"],
+];
+
+var align = {
+    "t" : "left",
+    "b" : "right",
+    "b2" : "right",
+    "j" : "center",
+    "k" : "center",
+}
+
+var colors = {
+    "b" : "#e88",
+    "t" : "#aaf",
+    "j" : "#8e8",
+    "k" : "#fff",
+}
+
+var slide = 0;
+
+function impetus() {
+  s = script[slide];
+  picture = s[0];
+
+  $('#vendetta').css("background-image", "url(/img/java/" + s[0] + ".jpg)");
+  $('#ventext').text(s[1]).css("color", colors[picture[0]]).css("text-align", align[picture]);
+  slide = slide + 1;
+}
+
+$('#vendetta').click(impetus);
+impetus();
+</script>
