@@ -15,11 +15,13 @@ body {
     font-weight: normal;
 }
 
-a {	color: #078; }
+a {	
+    color: #257DCF; 
+}
 
 a:hover {
     color: white;
-    background: rgba(0, 119, 136, .2);
+    background: #257DCF;
 }
 
 a, a:hover { text-decoration: none }
@@ -27,7 +29,7 @@ a, a:hover { text-decoration: none }
 h1, h2, h3 {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
-    color:rgb(90, 114, 125);
+	color: #444;
 }
 
 .logobox {
@@ -125,7 +127,7 @@ h1, h2, h3 {
 	font-size:150%;
 	height:2em;
 	width:90%;
-	border: 1px solid #078; 
+	border: 1px solid #257DCF; 
 }
 
 #mlform input#mailsubmit { 
@@ -200,7 +202,7 @@ h1, h2, h3 {
 
 #story .date {
 	text-align:right;
-	color:#ccc;
+	color:#444;
     font-size:50%;
 }
 
@@ -223,15 +225,11 @@ h1, h2, h3 {
 #mainstory .date {
     text-align:right;
     font-size:50%;
-    color:#888;
+    color:#ddd;
 }
 
 #mainstory a {	
     color:#F5DB51;
-}
-
-a:hover {
-    background: rgba(0, 119, 136, .9);
 }
 
 #maincontainer ul {
