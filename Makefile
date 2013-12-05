@@ -2,20 +2,22 @@ OUT=html
 RSS=html/rss
 
 all: html css fortunes
-html: stories rss index.html 
-css: announce.css general.css css.css story.css twitter.css
+html: stories rss index
+index: index.html index.json
+css: general.css bootstrap-responsive.css bootstrap.css
 
 %.html: %.rb %.erb
 	ruby $< > ${OUT}/$@	
+
+%.json: %.rb %.erb
+	ruby $< --json > ${OUT}/$@
  
 rss: index.rb rss.erb
 	ruby index.rb --rss > ${RSS}
 
-css.css: css.rb css.erb 
-	ruby $< > ${OUT}/$@
-
 %.css: 
-	cp css/$@ ${OUT}
+	mkdir -p ${OUT}/css
+	cp css/$@ ${OUT}/css
 
 #	WIP -> Compressing css.
 #

@@ -1,36 +1,17 @@
     <meta charset="UTF-8" />
-    <title>Grupo de Usuarios de Linux de la Universidad Carlos III de Madrid</title>
-    <link href="/general.css" rel="stylesheet" type="text/css" />
-    <link href="/announce.css" rel="stylesheet" type="text/css" />
-    <link href="/css.css" rel="stylesheet" type="text/css" />
-    <link href="/story.css" rel="stylesheet" type="text/css" />
-    <link href="/twitter.css" rel="stylesheet" type="text/css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/general.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
     <link rel="icon" href="/img/favicon.png" type="image/png" />
     <link rel="alternate" type="application/rss+xml" title="GUL UC3M (RSS 2.0)" href="http://gul.es/rss" />
-    
-    <script type="text/javascript">
-      function showSubscribeForm() {
-        $('#botonaco').slideUp();
-        $('#mail').click(function() {
-          if ($('#mail').hasClass("inputlight")) {
-            $('#mail').removeClass("inputlight").addClass("inputstrong");
-            $('#mail').val("");
-          }
-        });
-      }
-        
-      var expanded = false;
-      function showMainStory() {
-        toSize = expanded ? 550 : 1000;
-        expanded = !expanded;
-        $("#mainstory .body").animate({
-          "max-height": "" + toSize + "px"
-        }, 1000);
-      }
-    </script>
     
     <script type="text/javascript">
      // google analytics
@@ -45,15 +26,4 @@
        var s = document.getElementsByTagName('script')[0];
        s.parentNode.insertBefore(ga, s);
      })();
-    </script>
-    
-    <script type="text/javascript">
-      function annrefresh() {
-        $.ajax({
-            url: "/announce.txt", 
-        }).done(function(data) {
-            $("#announce").html(data);
-        });
-      }
-      setInterval (annrefresh, 5000);
     </script>

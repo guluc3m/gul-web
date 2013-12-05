@@ -10,9 +10,15 @@ file = ARGV[0]
 @story = get_story(file) || exit
 @sections = read_sections
 
+tl = get_timeline
+
 # stories in the same section
-@timeline = get_timeline.select do |story|
-  story.section == @story.section && story.identifier != @story.identifier
+@timeline = tl.select do |story|
+  story.section == @story.section && story.body.length > 0
+end
+
+@others = tl.select do |story|
+  story.section != @story.section
 end
 
 # and their pictures

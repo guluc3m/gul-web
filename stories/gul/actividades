@@ -1,20 +1,23 @@
 title = "Actividades"
 
-<h3>Lista de correo </h3> 
 
+<div class="row-fluid">
+
+<div class="span6">
+<h3>Lista de correo </h3> 
 <p>
 La principal actividad del GUL y donde se nota su vitalidad es la lista de correo, 
 donde cualquiera puede apuntarse y participar preguntando dudas, contest&aacute;ndolas, 
 proponiendo ideas y actividades o ayudando a llevarlas a cabo. En resumen, 
 se habla de casi cualquier cosa que se pueda considerar interesante en un grupo as&iacute;.
 </p>
-
 <p>
 Puedes acceder a la lista en <a href="http://gul.uc3m.es/mailman/listinfo/gul/">http://gul.uc3m.es/mailman/listinfo/gul/</a> 
 </p>  
+</div>
 
+<div class="span6">
 <h3>Cursos de noviembre y marzo.</h3> 
-
 <p>
 Cada a&ntilde;o, en noviembre y marzo, se preparan unas jornadas que 
 suelen consistir en cursos/charlas de dos horas en torno a temas de software libre, 
@@ -24,9 +27,13 @@ tema relacionado del que alguien quiera un curso o est&eacute; dispuesto a darlo
 Las presentaciones, el video y el audio de algunos de ellos est&aacute;n en 
 <a href="ftp://ftp.gul.es/pub/gul/cursos">esta secci&oacute;n</a> de nuestro 
 ftp.</p>
+</div>
+</div>
 
+<div class="row-fluid">
+
+<div class="span6">
 <h3>Monogr&aacute;ficos</h3> 
-
 <p>
 Nos dimos cuenta que con los cursos de dos horas a veces no pod&iacute;amos 
 mostrar todo lo que quer&iacute;amos y creamos los monogr&aacute;ficos. 
@@ -34,9 +41,10 @@ Estos son cursos cuya duraci&oacute;n y fechas las fija el ponente, y a
 partir de ah&iacute; el grupo trata de poner todos los medios necesarios 
 para su desarrollo.
 </p>  
+</div>
 
+<div class="span6">
 <h3>Install party</h3> 
-
 <p>
 Una «install party» es una fiesta de instalaci&oacute;n, una reuni&oacute;n 
 de instalaci&oacute;n o como quieras llamarlo. El grupo solicita un espacio 
@@ -46,10 +54,13 @@ instalaci&oacute;n, de forma bastante informal, para que no tengan tanto
 miedo. Solemos organizar una al a&ntilde;o, pero se puede cambiar en 
 cualquier momento si hay gente para hacerla.
 </p>  
-
 <p>Si quieres instalarte una distribuci&oacute;n y no te atreves,
 tambi&eacute;n se puede quedar contigo en concreto, no hace falta que 
 vayas a una install party. Para eso suscríbete a la lista de correo
 y manda uno solicit&aacute;ndolo. 
 Si no quieres suscribirte puedes escribir a info arroba gul.uc3m.es
 </p>
+</div>
+
+
+</div>

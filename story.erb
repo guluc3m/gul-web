@@ -1,57 +1,101 @@
 <html>
   <head>
-    <%= partial("head") %>  
+    <title>GUL UC3M - <%= @story.title %></title>
+    <%= partial("head") %>
   </head>
   <body>
-    <%= partial("javascript") %>
     
-    <div id="nav">
-      <!--
-      <a href="index.html">
-        <img alt="" src="home.png" />
-      </a>
-      -->
-      <% @sections.each do |section| %>
-        <div class="navitem" style="border-bottom: 3px solid <%= section.color %>">
-          <%= section.name %>
-        </div>          
-      <% end %>
-    </div>
-      
-    <%= partial("menu") %>  
-      
-    <div id="main">
-      
-      <% if @announce %>
-        <div id="announce">
-          <%= @announce %>
+    <div class="logobox">
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <h1><a href="/">GUL UC3M</a></h1>
+          </div>
+          <div class="span1 offset7">
+            <h2></h2>
+            <p><!--Aquí va el enlace a la radio--></p>
+          </div>
         </div>
-      <% end %>
-      
-      <div id="mainstory" class="story_<%= @story.section.identifier %>">
-        <%= partial("story") %>
-      </div>  
-      
-      <% if @timeline.size > 0 %>
-        <div class="more_in_section">
-          <h1>
-            Relacionadas:
-          </h1>
-          <ul>
-          <% @timeline.reverse.each do |story| %>
-            <li class="menuitem_<%= story.section.identifier %>">
-            <a href="<%= story.path %>">
-              <%= story.title %>
-            </a>
-            </li>
-          <% end %>
-          </ul>
-        </div>
-      <% end %>
+      </div>
     </div>
 
-    <%= partial("fortunes") %>
+    <div id="story">
+      <div class="container">
+        <div class="row">
+          <div class="span2"></div>
+          <div class="span8">
+            <h1><%= @story.title %></h1>
+            <div class="date">
+              <%= if @story.updated.length > 0 then @story.updated else "&nbsp;" end %>
+            </div>
+            <%= @story.body %>
+          </div>
+          <div class="span2"></div>
+        </div>
+        <div class="row">
+          <div class="span12">
+            <p>
+              <% @story.pictures.each do |picture| %>
+                <a href="<%= picture.path %>">
+                  <img src="<%= picture.thumbnail %>"/>
+                </a>
+              <% end %>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <%
+      def title_for(story)
+        if story.title.length > 50 
+          story.title[0..50] + "..." 
+        else
+          story.title 
+        end
+      end
+    %>
+    
+    <div class="container" id="maincontainer">
+      <div class="row">
+        <div class="span6">
+          <h2>EN LA MISMA LÍNEA</h2>
+          <p class="timeline">
+            <ul>
+              <% @timeline.reverse.each do |story| %>
+                <% if story.identifier != @story.identifier %>
+                  <li class="tl">
+                    <a href="<%= story.path %>">
+                      <%= title_for (story) %>
+                    </a>
+                  </li>
+                <% else %>
+                <li class="tl2">
+                  <%= title_for (story)%>
+                </li>
+                <% end %>
+              <% end %>
+            </ul>
+          </p>
+        </div>
+        <div class="span6">
+          <h2>OTRAS NOTICIAS</h2>
+          <p class="timeline">
+            <ul>
+              <% @others.reverse.each do |story| %>
+                <li class="tl">
+                  <a href="<%= story.path %>">
+                    <%= title_for(story) %>
+                  </a>
+                </li>
+              <% end %>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
 
-    <%= partial("footer") %>
+    <%= partial("footer") %>    
   </body>
 </html>
+
