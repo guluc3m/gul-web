@@ -3,7 +3,7 @@ RSS=html/rss
 
 all: html css fortunes
 html: stories rss index
-index: index.html index.json
+index: index.html
 css: general.css bootstrap-responsive.css bootstrap.css
 
 %.html: %.rb %.erb
