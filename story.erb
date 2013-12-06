@@ -22,15 +22,13 @@
     <div id="story">
       <div class="container">
         <div class="row">
-          <div class="span2"></div>
-          <div class="span8">
+          <div class="span12">
             <h1><%= @story.title %></h1>
             <div class="date">
               <%= if @story.updated.length > 0 then @story.updated else "&nbsp;" end %>
             </div>
             <%= @story.body %>
           </div>
-          <div class="span2"></div>
         </div>
         <div class="row">
           <div class="span12">
