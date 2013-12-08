@@ -239,7 +239,11 @@ h1, h2, h3 {
 #maincontainer li {
 	list-style: none;
 	height: 30px;
-	padding-left: 30px;
+    margin-left:20px;
+}
+
+#maincontainer li i {
+    padding-right:.5em;
 }
 
 /* Large desktop */
@@ -284,3 +288,4 @@ h1, h2, h3 {
 		font-size:15px;
 	}
 }
+
