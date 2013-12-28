@@ -1,0 +1,9 @@
+title = "Probando Windows Server 2008"
+
+<p>
+Con los problemas que hemos tenido últimamente con los cuelgues de
+Apache hemos decidido probar Microsoft IIS sobre Windows 2008.
+Esperamos que con este cambio tengáis una mejor experiencia de usuario
+en la web del GUL.
+</p>
+
