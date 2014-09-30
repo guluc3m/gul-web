@@ -232,6 +232,15 @@ h1, h2, h3 {
     color:#F5DB51;
 }
 
+#mainstory strong {
+    color:#F5DB51;
+    font-weight:normal;
+}
+
+#mainstory ul li {
+    line-height:1.4;
+}
+
 #maincontainer ul {
 	margin-left: 0;
 }
@@ -245,6 +254,7 @@ h1, h2, h3 {
 #maincontainer li i {
     padding-right:.5em;
 }
+
 
 /* Large desktop */
 @media (min-width: 1200px) {
