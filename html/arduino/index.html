@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Hackers UC3M</title>
+
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--<link rel="stylesheet" href="/hackers/assets/css/main.css">
+		<script src="/hackers/assets/js/prefixfree.min.js"></script>
+		<script src="/hackers/assets/js/modernizr-2.6.2.min.js"></script>-->
+		<style type="text/css">
+			@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+			@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+			* {
+			  margin: 0;
+			  padding: 0;
+			}
+			body {
+			  font-family: 'Roboto', sans-serif;
+			  color: #ddd;
+			  background: url("background.png");
+			  height: 100%;
+			  text-align: justify;
+			}
+			header {
+			  margin: 50px auto 0px;
+			  width: 95%;
+			  max-width: 960px;
+			  height: 70px;
+			  background: #333;
+			}
+			header h1 {
+			  float: left;
+			  height: 100%;
+			  width: auto;
+			}
+			header h1 a {
+			  display: inline-block;
+			  height: 100%;
+			  line-height: 70px;
+			  text-decoration: none;
+			  color: #ddd;
+			  transition: all 0.2s ease-in-out;
+			}
+			header h1 a img {
+			  height: 70px;
+			}
+			header h1 a span {
+			  background: white;
+			  color: black;
+			  display: inline-block;
+			}
+			header nav {
+			  float: right;
+			  height: 100%;
+			  width: auto;
+			  list-style: none;
+			}
+			header nav li {
+			  display: inline-block;
+			  width: auto;
+			  height: 100%;
+			  cursor: pointer;
+			  position: relative;
+			}
+			header nav li a {
+			  display: inline-block;
+			  width: auto;
+			  height: 100%;
+			  padding: 0px 15px;
+			  line-height: 70px;
+			  text-decoration: none;
+			  color: #ddd;
+			  transition: all 0.2s ease-in-out;
+			}
+			header nav li a:hover {
+			  background: #555;
+			}
+			header nav li ul {
+			  position: absolute;
+			  top: 70px;
+			  left: 50%;
+			  background: #444;
+			  transform: translateX(-50%);
+			  opacity: 0;
+			  visibility: hidden;
+			  transition: all 0.2s ease-in-out;
+			}
+			header nav li ul li {
+			  display: inline-block;
+			  width: auto;
+			  height: auto;
+			}
+			header nav li ul li a {
+			  line-height: 35px;
+			}
+			header nav li:hover > ul {
+			  opacity: 1;
+			  visibility: visible;
+			}
+			.in {
+			  visibility: visible;
+			  opacity: 1;
+			  transition: all 0.2s ease-in-out;
+			}
+			.none {
+			  visibility: hidden;
+			  opacity: 0;
+			  transition: all 0.2s ease-in-out;
+			}
+			div#main {
+			  margin: 50px auto 0px;
+			  width: 95%;
+			  max-width: 960px;
+			}
+			div#main section#index {
+			  text-align: center;
+			}
+			div#main section#index h2#quote {
+			  margin: 30px auto 20px;
+			}
+			div#main section#index h2#quote q {
+			  border-left: 10px solid #ccc;
+			  margin: 0px 10px 30px;
+			  padding: 0.5em 10px;
+			  quotes: "\201C" "\201D" "\2018" "\2019";
+			  font-family: 'Inconsolata';
+			  opacity: 0.7;
+			}
+			div#main section#index h2#quote q:before {
+			  color: #ccc;
+			  opacity: 0.2;
+			  content: open-quote;
+			  font-size: 4em;
+			  line-height: 0.1em;
+			  margin-right: 0.25em;
+			  vertical-align: -0.4em;
+			}
+			div#main section#index h2#quote q:after {
+			  content: none;
+			}
+			div#main section#index iframe#intro-video {
+			  display: inline;
+			  margin: 20px 30px 40px;
+			  width: 560px;
+			  height: 315px;
+			}
+			div#main section#index section#intro {
+			  display: flex;
+			  text-align: justify;
+			  width: auto;
+			}
+			div#main section#index section#intro article {
+			  margin: 10px auto;
+			  display: flex;
+			}
+			div#main section#index section#intro article#quienes-somos {
+			  float: left;
+			  position: relative;
+			  display: inline;
+			  margin: 0px 20px 0 0;
+			  width: 50%;
+			}
+			div#main section#index section#intro article#quienes-somos h3 {
+			  display: inline-block;
+			  margin: 20px auto 0px;
+			}
+			div#main section#index section#intro article#quienes-somos p {
+			  display: inline-block;
+			  padding: 5px 0px;
+			}
+			div#main section#index section#intro article#que-somos {
+			  float: right;
+			  position: relative;
+			  display: inline;
+			  margin: 0 0 0 20px;
+			  width: 50%;
+			}
+			div#main section#index section#intro article#que-somos h3 {
+			  display: inline-block;
+			  margin: 20px auto 0px;
+			}
+			div#main section#index section#intro article#que-somos p {
+			  display: inline-block;
+			  padding: 5px 0px;
+			}
+			div#main section#index section#activities {
+			  display: flex;
+			  text-align: justify;
+			  width: auto;
+			}
+			div#main section#index section#activities article {
+			  margin: 20px auto;
+			  display: inline;
+			  text-align: center;
+			}
+			div#main section#index section#activities article h3 {
+			  display: inline-block;
+			  margin: 20px auto 0px;
+			}
+			div#main section#index section#activities article h3 a {
+			  text-decoration: none;
+			  color: #ddd;
+			}
+			div#main section#index section#activities article p {
+			  display: inline-block;
+			  padding: 5px 0px;
+			  text-align: justify;
+			}
+			div#main section#arduino section#s-que-arduino {
+			  display: flex;
+			  text-align: justify;
+			  width: auto;
+			  margin: 20px auto;
+			}
+			div#main section#arduino section#s-que-arduino article#que-arduino {
+			  text-align: justify;
+			  float: left;
+			  display: inline;
+			  margin: 10px 20px 0 0;
+			  width: 50%;
+			}
+			div#main section#arduino section#s-que-arduino article#que-arduino h2 {
+			  display: inline-block;
+			  margin: 20px auto 0px;
+			}
+			div#main section#arduino section#s-que-arduino article#que-arduino p {
+			  display: inline-block;
+			  padding: 5px 0px;
+			}
+			div#main section#arduino section#s-que-arduino img#arduino-img {
+			  width: 450px;
+			  height: 300px;
+			  border: 2px solid #777;
+			  float: right;
+			  display: inline;
+			  margin: 0 0 0 20px;
+			}
+			div#main section#arduino section#s-cuando-arduino {
+			  display: flex;
+			  text-align: justify;
+			  width: auto;
+			}
+			div#main section#arduino section#s-cuando-arduino img#gul-logo {
+			  width: 300px;
+			  height: 150px;
+			  float: left;
+			  display: inline;
+			  margin: 30px 0 0 0;
+			}
+			div#main section#arduino section#s-cuando-arduino article#cuando-arduino {
+			  margin: 20px 0 20px 180px;
+			  text-align: justify;
+			  float: right;
+			  display: inline;
+			  width: 50%;
+			}
+			div#main section#arduino section#s-cuando-arduino article#cuando-arduino h2 {
+			  display: inline-block;
+			  margin: 20px auto 0px;
+			}
+			div#main section#arduino section#s-cuando-arduino article#cuando-arduino p {
+			  display: inline-block;
+			  padding: 5px 0px;
+			}
+			div#main section#arduino article {
+			  text-align: center;
+			  margin: 30px auto;
+			}
+			div#main section#arduino article p {
+			  text-align: justify;
+			}
+			div#main section#arduino div.typeform-widget {
+			  margin: 10px auto 20px;
+			}
+			footer {
+			  border-top: 2px solid #222;
+			  background: #111;
+			  text-align: center;
+			  font-size: 70%;
+			  margin: 20px auto 0px;
+			  padding: 10px ;
+			}
+			footer a {
+			  text-decoration: none;
+			  color: #ddd;
+			}
+			footer p {
+			  padding: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<header>
+			<h1>
+				<a href="index.html" title="HackersUC3M">
+					<!--<span>Hackers</span>UC3M_-->
+					<img src="logo.png" alt="">
+				</a>
+			</h1>
+			<nav>
+				<li>
+					<a href="index.html">Inicio</a>
+				</li>
+				<li>
+					<a>Talleres</a>
+					<ul type="talleres">
+						<li activity="arduino">
+							<a href="index.html">Arduino</a>
+						</li>
+					</ul>
+				</li>
+			</nav>
+		</header>
+
+		<div id="main">
+			<section id="arduino">
+				<section id="s-que-arduino">
+					<article id="que-arduino">
+						<h2>
+							¿Qué es Arduino?
+						</h2>
+						<p>
+							Desde el Grupo de Usuarios de Linux queremos promover el uso de la tecnología libre y todos los valores asociaciados a ella, por ello hemos escogido la plataforma Arduino, una plataforma de hardware libre basada en una placa de microcontrolador y el entorno de desarrollo asociado a él. Creemos que deben ser conocimientos al alcance de cualquier público, no solo de aquellos que deseen desarrollarse en entornos como el de la electrónica, por lo que deseamos acercar esta tecnología a todo el mundo.
+						</p>
+					</article>
+
+					<img id="arduino-img" src="arduino1.jpg" alt="Placa de Arduino">
+				</section>
+
+				<section id="s-cuando-arduino">
+					<img id="gul-logo" src="gul-logo.png" alt="GUL UC3M">
+
+					<article id="cuando-arduino">
+						<h2>
+							¿Cuando y donde?
+						</h2>
+						<p>
+							El curso se realizará las semanas del <strong>6</strong>, <strong>13</strong> y <strong>27</strong> de abril y la semana del <strong>4</strong> de mayo. Se realizarán en la franja de 19:00 a 20:30 y serán preferiblemente los miercoles, menos la última semana, que tendrá una sesión en lunes y otra en viernes. Los talleres se realizarán en el campus de Leganés, en breves informaremos del aula concreto.
+						</p>
+					</article>
+				</section>
+
+				<article id="inscription">
+					<h2>
+						Inscripción
+					</h2>
+					<p>
+						La inscripción estará disponible hasta el lunes día 6 a las 23:59. Puedes inscribirte ya siguiendo estos pasos:
+					</p>
+					<div class="typeform-widget" data-url="https://drimmark.typeform.com/to/ene9HR" data-text="Taller de Arduino" style="width:100%;height:500px;"></div>
+					<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+
+				</article>
+
+				<article id="docs">
+					<h2>
+						Documentación
+					</h2>
+					<p>
+						En esta sección iréis teniendo disponibles los enlaces al codigo, documentos o cheat sheets conforme vaya avanzando el curso.
+					</p>
+				</article>
+
+			</section>
+		</div>
+
+		<footer>
+			<p>
+				El <a href="http://gul.es/">Grupo de Usuarios de Linux de la Universidad Carlos III de Madrid</a> es una asociación declarada de beneficio social por el Ministerio de Hacienda.
+				<br>
+				Domicilio social: despacho 2.3C05 del edificio Sabatini, Avenida de la Universidad, 30 28911 Leganés Madrid, España.
+			</p>
+			<p>
+				C.I.F.:G83296988
+			</p>
+			<p>
+  			Número de registro de la comunidad de Madrid: 23500
+		  		<br>
+  			Número de registro del ayuntamiento de Leganés: 795
+			</p>
+		</footer>
+		<!--<script src="/hackers/assets/js/main.js"></script>-->
+
+	</body>
+</html>
