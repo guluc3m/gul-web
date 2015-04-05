@@ -6,6 +6,9 @@ html: stories rss index
 index: index.html
 css: general.css bootstrap-responsive.css bootstrap.css
 
+version:
+	ruby --version	
+
 %.html: %.rb %.erb
 	ruby $< > ${OUT}/$@	
 
